@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "IconFont";
+    src: url('IconFont.woff2?t=1686207416218') format('woff2'),
+        url('IconFont.woff?t=1686207416218') format('woff'),
+        url('IconFont.ttf?t=1686207416218') format('truetype');
+}
+
+.iconfont {
+    font-family: "IconFont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-nav-solution:before { content: "\e900"; }
+.icon-icon-nav-issues:before { content: "\e901"; }
+.icon-icon-nav-message:before { content: "\e902"; }
+.icon-icon-nav-doc:before { content: "\e903"; }
+.icon-icon-nav-billing:before { content: "\e904"; }
+.icon-icon-nav-accountSetting:before { content: "\e905"; }
+.icon-icon-nav-logout:before { content: "\e906"; }
+.icon-icon-sidebar-auditLog:before { content: "\e907"; }
+.icon-icon-sidebar-connectivity:before { content: "\e908"; }
+.icon-icon-sidebar-userManagement:before { content: "\e909"; }
+.icon-icon-sidebar-solutionInfo:before { content: "\e90a"; }
+.icon-icon-sidebar-applications:before { content: "\e90b"; }
+.icon-icon-sidebar-setting:before { content: "\e90c"; }
+.icon-icon-management:before { content: "\e90d"; }
+.icon-icon-dashboard:before { content: "\e90e"; }
+.icon-icon-explorer:before { content: "\e90f"; }
+.icon-icon-studio:before { content: "\e910"; }
+.icon-icon-copy:before { content: "\e911"; }
+.icon-icon-edit:before { content: "\e912"; }
+.icon-icon-tips:before { content: "\e913"; }
+.icon-icon-delete:before { content: "\e914"; }
+.icon-icon-time:before { content: "\e915"; }
+.icon-icon-down:before { content: "\e916"; }
+.icon-icon-up:before { content: "\e917"; }
+.icon-icon-left:before { content: "\e918"; }
+.icon-icon-right:before { content: "\e919"; }
+.icon-icon-cpu:before { content: "\e91a"; }
+.icon-icon-disk:before { content: "\e91b"; }
+.icon-icon-memory:before { content: "\e91c"; }
+.icon-icon-nav-support:before { content: "\e91d"; }
+.icon-icon-correct:before { content: "\e91e"; }
+.icon-icon-wrong:before { content: "\e91f"; }
+.icon-icon-language:before { content: "\e920"; }
+.icon-icon-pullDown:before { content: "\e921"; }
+.icon-icon-plus:before { content: "\e922"; }
+.icon-icon-minus:before { content: "\e923"; }
+.icon-icon-search:before { content: "\e924"; }
+.icon-icon-help:before { content: "\e925"; }
+.icon-icon-open:before { content: "\e926"; }
+.icon-icon-sidebar-rootUserManagement:before { content: "\e927"; }
+.icon-icon-sidebar-subscribe:before { content: "\e928"; }
+.icon-icon-sidebar-billing:before { content: "\e929"; }
+
+
+/**
+ * Make by Icon Font Exporter
+ * https://www.figma.com/community/plugin/1129455674275940478/Icon-Font-Exporter
+ */

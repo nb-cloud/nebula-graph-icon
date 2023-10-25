@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css"></link>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+
+            color: #005bcc;
+        }
+        .list {
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 16px;
+        }
+        .item {
+            width: 80px;
+            height: 80px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            border: 1px dashed #333;
+        }
+        .article {
+            max-width: 400px;
+            padding-left: 16px;
+        }
+    </style>
+    <script src="./Iconfont.js"></script>
+</head>
+<body>
+    <div class="list">
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Correct"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Customer Service"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Download"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Failed"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MoreVertFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Plus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Reduce"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Set_up"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Setting"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#WebLink"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Wrong"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#abnormal"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#alert-delete"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#alert-edit"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-Backup-Restore"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-Capacity"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-Clusters"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-JobMangement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-Node"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-VersionUpgrade"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-accountList"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-accountManagement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-alertMessages"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-alertRules"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-analysisDiagnosis"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-auditLogs"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-book"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-clusterDiagnostics"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-clusterMember"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-configuration"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-connect"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-contactUs"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-cpu"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-dashboard"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-dataSynchronization"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-databaseMember"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-dependencies"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-dependentServices"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-disk"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-enterprise"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-feedback"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-fold"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-foldTriangle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-github"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-graph"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-help"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-language"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-language-line"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-leaderDistributed"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-leftTriangle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-lmManger"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-load"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-logout"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-machine"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-memberManagement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-meta"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-more"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-multiCluster"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-net"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-notification"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-operationLog"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-operationRecord"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-participationInResearch"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-partionDistributed"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-partitionInfo"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-processManagement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-ram"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-recipientSettings"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-rightTriangle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-runningnGQL"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-serverControl"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-serverInfo"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-serverdashboard"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-serviceLogs"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-servise"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-setting"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-slowQuery"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-snapshot"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-storage"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-suggestions"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-systemSetting"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-taskCenter"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-timeConsuming"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-troubleFeedback"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-tvMode"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-unfold"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-unfoldTriangle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#av-versionManagement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#date"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#date-left"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#date-left2"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#date-right"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#date-right2"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#down"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#files"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#help"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#listFilter"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#lock"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#lose"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#message"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#message-alert"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#page-down"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#page-left"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#page-right"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#page-up"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#refresh"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#return"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#rmal"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#search"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-arrange-a"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-arrange-b"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-graph"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-meta"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-slide-a"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-slide-b"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-status"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#service-storage"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#settings-notificationEndpoint"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#settings-othersettings"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#settings-packageMangement"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#settings-singleSignon"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#settings-systemSettings"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#switch"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#time"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#up"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#verload"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#verview-alert"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#verview-ignore"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#watch"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#zoom"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#zoom-in"></use>
+            </svg>
+        </div>
+        
+    </div>
+    <article class="article">
+        <h1>How to use</h1>
+        <p>
+            Step 1: Include JS.
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">script</span><span style="">&nbsp;src=</span><span style="color: rgb(170, 17, 17)">&quot;./iconfont.js&quot;</span><span style="">&gt;&lt;/</span><span style="color: rgb(0, 136, 85)">script</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+        <p>
+            Step 2: Use CSS.
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">style</span><span style="">&gt;</span></div>
+                    <div class="line"><span style="">.</span><span style="color: rgb(17, 102, 119)">icon</span><span style="">&nbsp;{</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;width:&nbsp;</span><span style="color: rgb(17, 102, 68)">1</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;height:&nbsp;</span><span style="color: rgb(17, 102, 68)">1</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;vertical-align:&nbsp;</span><span style="color: rgb(17, 102, 68)">-0.15</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;fill:&nbsp;</span><span style="color: rgb(34, 17, 153)">currentColor</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;overflow:&nbsp;</span><span style="color: rgb(34, 17, 153)">hidden</span><span style="">;</span></div>
+<div class="line"><span style="">}</span></div>
+                    <div class="line"><span style="">&lt;/</span><span style="color: rgb(0, 136, 85)">style</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+        <p>
+            Step 3: Use icon like this.
+            
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">svg</span><span style="">&nbsp;class=</span><span style="color: rgb(170, 17, 17)">&quot;icon&quot;</span><span style="">&nbsp;aria-hidden=</span><span style="color: rgb(170, 17, 17)">&quot;true&quot;</span><span style="">&gt;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;&lt;</span><span style="color: rgb(0, 136, 85)">use</span><span style="">&nbsp;xlink:href=</span><span style="color: rgb(170, 17, 17)">&quot;#icon-xxx&quot;</span><span style="">&gt;&lt;/</span><span style="color: rgb(0, 136, 85)">use</span><span style="">&gt;</span></div>
+<div class="line"><span style="">&lt;/</span><span style="color: rgb(0, 136, 85)">svg</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+
+    </article>
+</body>
+</html>

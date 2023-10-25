@@ -1,0 +1,212 @@
+[
+    {
+        "name": "icon-nav-solution",
+        "className": "icon-nav-solution",
+        "unicode": "e900"
+    },
+    {
+        "name": "icon-nav-issues",
+        "className": "icon-nav-issues",
+        "unicode": "e901"
+    },
+    {
+        "name": "icon-nav-message",
+        "className": "icon-nav-message",
+        "unicode": "e902"
+    },
+    {
+        "name": "icon-nav-doc",
+        "className": "icon-nav-doc",
+        "unicode": "e903"
+    },
+    {
+        "name": "icon-nav-billing",
+        "className": "icon-nav-billing",
+        "unicode": "e904"
+    },
+    {
+        "name": "icon-nav-accountSetting",
+        "className": "icon-nav-accountSetting",
+        "unicode": "e905"
+    },
+    {
+        "name": "icon-nav-logout",
+        "className": "icon-nav-logout",
+        "unicode": "e906"
+    },
+    {
+        "name": "icon-sidebar-auditLog",
+        "className": "icon-sidebar-auditLog",
+        "unicode": "e907"
+    },
+    {
+        "name": "icon-sidebar-connectivity",
+        "className": "icon-sidebar-connectivity",
+        "unicode": "e908"
+    },
+    {
+        "name": "icon-sidebar-userManagement",
+        "className": "icon-sidebar-userManagement",
+        "unicode": "e909"
+    },
+    {
+        "name": "icon-sidebar-solutionInfo",
+        "className": "icon-sidebar-solutionInfo",
+        "unicode": "e90a"
+    },
+    {
+        "name": "icon-sidebar-applications",
+        "className": "icon-sidebar-applications",
+        "unicode": "e90b"
+    },
+    {
+        "name": "icon-sidebar-setting",
+        "className": "icon-sidebar-setting",
+        "unicode": "e90c"
+    },
+    {
+        "name": "icon-management",
+        "className": "icon-management",
+        "unicode": "e90d"
+    },
+    {
+        "name": "icon-dashboard",
+        "className": "icon-dashboard",
+        "unicode": "e90e"
+    },
+    {
+        "name": "icon-explorer",
+        "className": "icon-explorer",
+        "unicode": "e90f"
+    },
+    {
+        "name": "icon-studio",
+        "className": "icon-studio",
+        "unicode": "e910"
+    },
+    {
+        "name": "icon-copy",
+        "className": "icon-copy",
+        "unicode": "e911"
+    },
+    {
+        "name": "icon-edit",
+        "className": "icon-edit",
+        "unicode": "e912"
+    },
+    {
+        "name": "icon-tips",
+        "className": "icon-tips",
+        "unicode": "e913"
+    },
+    {
+        "name": "icon-delete",
+        "className": "icon-delete",
+        "unicode": "e914"
+    },
+    {
+        "name": "icon-time",
+        "className": "icon-time",
+        "unicode": "e915"
+    },
+    {
+        "name": "icon-down",
+        "className": "icon-down",
+        "unicode": "e916"
+    },
+    {
+        "name": "icon-up",
+        "className": "icon-up",
+        "unicode": "e917"
+    },
+    {
+        "name": "icon-left",
+        "className": "icon-left",
+        "unicode": "e918"
+    },
+    {
+        "name": "icon-right",
+        "className": "icon-right",
+        "unicode": "e919"
+    },
+    {
+        "name": "icon-cpu",
+        "className": "icon-cpu",
+        "unicode": "e91a"
+    },
+    {
+        "name": "icon-disk",
+        "className": "icon-disk",
+        "unicode": "e91b"
+    },
+    {
+        "name": "icon-memory",
+        "className": "icon-memory",
+        "unicode": "e91c"
+    },
+    {
+        "name": "icon-nav-support",
+        "className": "icon-nav-support",
+        "unicode": "e91d"
+    },
+    {
+        "name": "icon-correct",
+        "className": "icon-correct",
+        "unicode": "e91e"
+    },
+    {
+        "name": "icon-wrong",
+        "className": "icon-wrong",
+        "unicode": "e91f"
+    },
+    {
+        "name": "icon-language",
+        "className": "icon-language",
+        "unicode": "e920"
+    },
+    {
+        "name": "icon-pullDown",
+        "className": "icon-pullDown",
+        "unicode": "e921"
+    },
+    {
+        "name": "icon-plus",
+        "className": "icon-plus",
+        "unicode": "e922"
+    },
+    {
+        "name": "icon-minus",
+        "className": "icon-minus",
+        "unicode": "e923"
+    },
+    {
+        "name": "icon-search",
+        "className": "icon-search",
+        "unicode": "e924"
+    },
+    {
+        "name": "icon-help",
+        "className": "icon-help",
+        "unicode": "e925"
+    },
+    {
+        "name": "icon-open",
+        "className": "icon-open",
+        "unicode": "e926"
+    },
+    {
+        "name": "icon-sidebar-rootUserManagement",
+        "className": "icon-sidebar-rootUserManagement",
+        "unicode": "e927"
+    },
+    {
+        "name": "icon-sidebar-subscribe",
+        "className": "icon-sidebar-subscribe",
+        "unicode": "e928"
+    },
+    {
+        "name": "icon-sidebar-billing",
+        "className": "icon-sidebar-billing",
+        "unicode": "e929"
+    }
+]

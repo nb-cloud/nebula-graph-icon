@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "IconFont";
+    src: url('IconFont.woff2?t=1692942739050') format('woff2'),
+        url('IconFont.woff?t=1692942739050') format('woff'),
+        url('IconFont.ttf?t=1692942739050') format('truetype');
+}
+
+.iconfont {
+    font-family: "IconFont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconnav-feedback:before { content: "\e900"; }
+.icon-iconnav-help:before { content: "\e901"; }
+.icon-iconnav-troubleFeedback:before { content: "\e902"; }
+.icon-iconnav-suggestions:before { content: "\e903"; }
+.icon-iconnav-participationInResearch:before { content: "\e904"; }
+.icon-iconnav-contactUs:before { content: "\e905"; }
+.icon-iconnav-accountManagement:before { content: "\e906"; }
+.icon-iconsettings-singleSignon:before { content: "\e907"; }
+.icon-iconnav-connect:before { content: "\e908"; }
+.icon-iconnav-enterprise:before { content: "\e909"; }
+.icon-iconnav-github:before { content: "\e90a"; }
+.icon-iconrefresh:before { content: "\e90b"; }
+.icon-iconnav-serviceLogs:before { content: "\e90c"; }
+.icon-icondate-right:before { content: "\e90d"; }
+.icon-icondate-left:before { content: "\e90e"; }
+.icon-iconpage-down:before { content: "\e90f"; }
+.icon-iconpage-up:before { content: "\e910"; }
+.icon-iconnav-setting:before { content: "\e911"; }
+.icon-iconnav-configuration:before { content: "\e912"; }
+.icon-iconMoreVertFilled:before { content: "\e913"; }
+.icon-iconlistFilter:before { content: "\e914"; }
+.icon-iconnav-dependentServices:before { content: "\e915"; }
+.icon-iconPlus:before { content: "\e916"; }
+.icon-iconReduce:before { content: "\e917"; }
+.icon-iconalert-edit:before { content: "\e918"; }
+.icon-iconSet_up:before { content: "\e919"; }
+.icon-iconwatch:before { content: "\e91a"; }
+.icon-iconnav-foldTriangle:before { content: "\e91b"; }
+.icon-iconnav-analysisDiagnosis:before { content: "\e91c"; }
+.icon-iconnav-slowQuery:before { content: "\e91d"; }
+.icon-iconnav-runningnGQL:before { content: "\e91e"; }
+.icon-iconnav-machine:before { content: "\e91f"; }
+.icon-iconnav-dashboard:before { content: "\e920"; }
+.icon-iconnav-cpu:before { content: "\e921"; }
+.icon-iconnav-ram:before { content: "\e922"; }
+.icon-iconnav-load:before { content: "\e923"; }
+.icon-iconnav-disk:before { content: "\e924"; }
+.icon-iconnav-net:before { content: "\e925"; }
+.icon-iconnav-servise:before { content: "\e926"; }
+.icon-iconnav-serverdashboard:before { content: "\e927"; }
+.icon-iconnav-graph:before { content: "\e928"; }
+.icon-iconnav-meta:before { content: "\e929"; }
+.icon-iconnav-storage:before { content: "\e92a"; }
+.icon-iconnav-serverControl:before { content: "\e92b"; }
+.icon-iconnav-Clusters:before { content: "\e92c"; }
+.icon-iconnav-Node:before { content: "\e92d"; }
+.icon-iconnav-processManagement:before { content: "\e92e"; }
+.icon-iconnav-leaderDistributed:before { content: "\e92f"; }
+.icon-iconnav-partionDistributed:before { content: "\e930"; }
+.icon-iconnav-serverInfo:before { content: "\e931"; }
+.icon-iconnav-partitionInfo:before { content: "\e932"; }
+.icon-iconnav-snapshot:before { content: "\e933"; }
+.icon-iconnav-timeConsuming:before { content: "\e934"; }
+.icon-iconnav-accountList:before { content: "\e935"; }
+.icon-iconnav-operationRecord:before { content: "\e936"; }
+.icon-iconnav-logout:before { content: "\e937"; }
+.icon-iconnav-dependencies:before { content: "\e938"; }
+.icon-iconnav-dataSynchronization:before { content: "\e939"; }
+.icon-iconnav-auditLogs:before { content: "\e93a"; }
+.icon-iconzoom-in:before { content: "\e93b"; }
+.icon-iconzoom:before { content: "\e93c"; }
+.icon-iconhelp:before { content: "\e93d"; }
+.icon-iconnav-language-line:before { content: "\e93e"; }
+.icon-icondate:before { content: "\e93f"; }
+.icon-iconsearch:before { content: "\e940"; }
+.icon-iconnav-versionManagement:before { content: "\e941"; }
+.icon-iconnav-multiCluster:before { content: "\e942"; }
+.icon-iconnav-systemSetting:before { content: "\e943"; }
+.icon-iconnav-operationLog:before { content: "\e944"; }
+.icon-iconnav-book:before { content: "\e945"; }
+.icon-iconDownload:before { content: "\e946"; }
+.icon-iconnav-Capacity:before { content: "\e947"; }
+.icon-iconnav-memberManagement:before { content: "\e948"; }
+.icon-iconnav-taskCenter:before { content: "\e949"; }
+.icon-iconnav-clusterDiagnostics:before { content: "\e94a"; }
+.icon-iconnav-tvMode:before { content: "\e94b"; }
+.icon-iconnav-JobMangement:before { content: "\e94c"; }
+.icon-iconnav-Backup-Restore:before { content: "\e94d"; }
+.icon-iconnav-VersionUpgrade:before { content: "\e94e"; }
+.icon-icondate-left2:before { content: "\e94f"; }
+.icon-icondate-right2:before { content: "\e950"; }
+.icon-iconservice-arrange-a:before { content: "\e951"; }
+.icon-iconservice-slide-a:before { content: "\e952"; }
+.icon-iconlock:before { content: "\e953"; }
+.icon-iconmessage:before { content: "\e954"; }
+.icon-iconmessage-alert:before { content: "\e955"; }
+.icon-iconSetting:before { content: "\e956"; }
+.icon-iconCustomer_Service:before { content: "\e957"; }
+.icon-iconWrong:before { content: "\e958"; }
+.icon-iconCorrect:before { content: "\e959"; }
+.icon-iconfiles:before { content: "\e95a"; }
+.icon-iconswitch:before { content: "\e95b"; }
+.icon-iconWebLink:before { content: "\e95c"; }
+.icon-iconnav-fold:before { content: "\e95d"; }
+.icon-iconnav-unfold:before { content: "\e95e"; }
+.icon-iconreturn:before { content: "\e95f"; }
+.icon-icondown:before { content: "\e960"; }
+.icon-iconup:before { content: "\e961"; }
+.icon-iconservice-status:before { content: "\e962"; }
+.icon-iconservice-graph:before { content: "\e963"; }
+.icon-iconservice-storage:before { content: "\e964"; }
+.icon-iconservice-meta:before { content: "\e965"; }
+.icon-iconservice:before { content: "\e966"; }
+.icon-iconservice-arrange-b:before { content: "\e967"; }
+.icon-iconservice-slide-b:before { content: "\e968"; }
+.icon-iconpage-left:before { content: "\e969"; }
+.icon-iconpage-right:before { content: "\e96a"; }
+.icon-iconnav-unfoldTriangle:before { content: "\e96b"; }
+.icon-iconnav-language:before { content: "\e96c"; }
+.icon-iconnormal:before { content: "\e96d"; }
+.icon-iconabnormal:before { content: "\e96e"; }
+.icon-iconoverload:before { content: "\e96f"; }
+.icon-iconclose:before { content: "\e970"; }
+.icon-iconnav-rightTriangle:before { content: "\e971"; }
+.icon-iconnav-leftTriangle:before { content: "\e972"; }
+.icon-iconFailed:before { content: "\e973"; }
+.icon-iconoverview-alert:before { content: "\e974"; }
+.icon-iconoverview-ignore:before { content: "\e975"; }
+.icon-icontime:before { content: "\e976"; }
+.icon-iconfilter:before { content: "\e977"; }
+.icon-iconnav-notification:before { content: "\e978"; }
+.icon-iconnav-alertMessages:before { content: "\e979"; }
+.icon-iconnav-alertRules:before { content: "\e97a"; }
+.icon-iconnav-recipientSettings:before { content: "\e97b"; }
+.icon-iconsettings-systemSettings:before { content: "\e97c"; }
+.icon-iconsettings-notificationEndpoint:before { content: "\e97d"; }
+.icon-iconsettings-othersettings:before { content: "\e97e"; }
+.icon-iconalert-delete:before { content: "\e97f"; }
+.icon-iconsettings-packageMangement:before { content: "\e980"; }
+.icon-iconnav-lmManger:before { content: "\e981"; }
+.icon-iconnav-more:before { content: "\e982"; }
+.icon-iconnav-clusterMember:before { content: "\e983"; }
+.icon-iconnav-databaseMember:before { content: "\e984"; }
+
+
+/**
+ * Make by Icon Font Exporter
+ * https://www.figma.com/community/plugin/1129455674275940478/Icon-Font-Exporter
+ */

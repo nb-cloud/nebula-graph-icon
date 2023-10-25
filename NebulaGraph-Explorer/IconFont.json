@@ -1,0 +1,1147 @@
+[
+    {
+        "name": "icon-nav-query",
+        "className": "icon-nav-query",
+        "unicode": "e900"
+    },
+    {
+        "name": "icon-nav-frameSelect",
+        "className": "icon-nav-frameSelect",
+        "unicode": "e901"
+    },
+    {
+        "name": "icon-nav-frameSelect-plus",
+        "className": "icon-nav-frameSelect-plus",
+        "unicode": "e902"
+    },
+    {
+        "name": "icon-nav-frameSelect-subtract",
+        "className": "icon-nav-frameSelect-subtract",
+        "unicode": "e903"
+    },
+    {
+        "name": "icon-nav-freeSelect",
+        "className": "icon-nav-freeSelect",
+        "unicode": "e904"
+    },
+    {
+        "name": "icon-nav-polygonSelect",
+        "className": "icon-nav-polygonSelect",
+        "unicode": "e905"
+    },
+    {
+        "name": "icon-nav-singleSelect",
+        "className": "icon-nav-singleSelect",
+        "unicode": "e906"
+    },
+    {
+        "name": "icon-nav-filter",
+        "className": "icon-nav-filter",
+        "unicode": "e907"
+    },
+    {
+        "name": "icon-nav-expand",
+        "className": "icon-nav-expand",
+        "unicode": "e908"
+    },
+    {
+        "name": "icon-nav-commonNeighbor",
+        "className": "icon-nav-commonNeighbor",
+        "unicode": "e909"
+    },
+    {
+        "name": "icon-nav-findPath",
+        "className": "icon-nav-findPath",
+        "unicode": "e90a"
+    },
+    {
+        "name": "icon-nav-graphCalculation",
+        "className": "icon-nav-graphCalculation",
+        "unicode": "e90b"
+    },
+    {
+        "name": "icon-nav-taskList",
+        "className": "icon-nav-taskList",
+        "unicode": "e90c"
+    },
+    {
+        "name": "icon-nav-console",
+        "className": "icon-nav-console",
+        "unicode": "e90d"
+    },
+    {
+        "name": "icon-nav-query2",
+        "className": "icon-nav-query2",
+        "unicode": "e90e"
+    },
+    {
+        "name": "icon-nav-propertyCalculation",
+        "className": "icon-nav-propertyCalculation",
+        "unicode": "e90f"
+    },
+    {
+        "name": "icon-nav-propertyView",
+        "className": "icon-nav-propertyView",
+        "unicode": "e910"
+    },
+    {
+        "name": "icon-nav-graphSpace",
+        "className": "icon-nav-graphSpace",
+        "unicode": "e911"
+    },
+    {
+        "name": "icon-nav-delete",
+        "className": "icon-nav-delete",
+        "unicode": "e912"
+    },
+    {
+        "name": "icon-nav-deleteReverse",
+        "className": "icon-nav-deleteReverse",
+        "unicode": "e913"
+    },
+    {
+        "name": "icon-nav-Revoke",
+        "className": "icon-nav-Revoke",
+        "unicode": "e914"
+    },
+    {
+        "name": "icon-nav-help",
+        "className": "icon-nav-help",
+        "unicode": "e915"
+    },
+    {
+        "name": "icon-nav-setup",
+        "className": "icon-nav-setup",
+        "unicode": "e916"
+    },
+    {
+        "name": "icon-nav-setup2",
+        "className": "icon-nav-setup2",
+        "unicode": "e917"
+    },
+    {
+        "name": "icon-nav-moveCanvas",
+        "className": "icon-nav-moveCanvas",
+        "unicode": "e918"
+    },
+    {
+        "name": "icon-nav-subscript",
+        "className": "icon-nav-subscript",
+        "unicode": "e919"
+    },
+    {
+        "name": "icon-nav-subscript-2",
+        "className": "icon-nav-subscript-2",
+        "unicode": "e91a"
+    },
+    {
+        "name": "icon-nav-miss",
+        "className": "icon-nav-miss",
+        "unicode": "e91b"
+    },
+    {
+        "name": "icon-nav-missReverse",
+        "className": "icon-nav-missReverse",
+        "unicode": "e91c"
+    },
+    {
+        "name": "icon-nav-others",
+        "className": "icon-nav-others",
+        "unicode": "e91d"
+    },
+    {
+        "name": "icon-nav-Redo",
+        "className": "icon-nav-Redo",
+        "unicode": "e91e"
+    },
+    {
+        "name": "icon-snapshot-history",
+        "className": "icon-snapshot-history",
+        "unicode": "e91f"
+    },
+    {
+        "name": "icon-nav-timebar",
+        "className": "icon-nav-timebar",
+        "unicode": "e920"
+    },
+    {
+        "name": "icon-navbar-feedback",
+        "className": "icon-navbar-feedback",
+        "unicode": "e921"
+    },
+    {
+        "name": "icon-navbar-troubleFeedback",
+        "className": "icon-navbar-troubleFeedback",
+        "unicode": "e922"
+    },
+    {
+        "name": "icon-navbar-suggestions",
+        "className": "icon-navbar-suggestions",
+        "unicode": "e923"
+    },
+    {
+        "name": "icon-navbar-participationInResearch",
+        "className": "icon-navbar-participationInResearch",
+        "unicode": "e924"
+    },
+    {
+        "name": "icon-navbar-contactUs",
+        "className": "icon-navbar-contactUs",
+        "unicode": "e925"
+    },
+    {
+        "name": "icon-navbar-enterprise",
+        "className": "icon-navbar-enterprise",
+        "unicode": "e926"
+    },
+    {
+        "name": "icon-studio-nav-github",
+        "className": "icon-studio-nav-github",
+        "unicode": "e927"
+    },
+    {
+        "name": "icon-workflow-edit",
+        "className": "icon-workflow-edit",
+        "unicode": "e928"
+    },
+    {
+        "name": "icon-list-close",
+        "className": "icon-list-close",
+        "unicode": "e929"
+    },
+    {
+        "name": "icon-studio-btn-close",
+        "className": "icon-studio-btn-close",
+        "unicode": "e92a"
+    },
+    {
+        "name": "icon-image-icon21",
+        "className": "icon-image-icon21",
+        "unicode": "e92b"
+    },
+    {
+        "name": "icon-navbar-help",
+        "className": "icon-navbar-help",
+        "unicode": "e92c"
+    },
+    {
+        "name": "icon-console-import",
+        "className": "icon-console-import",
+        "unicode": "e92d"
+    },
+    {
+        "name": "icon-Thumbnail-graphView",
+        "className": "icon-Thumbnail-graphView",
+        "unicode": "e92e"
+    },
+    {
+        "name": "icon-studio-btn-up",
+        "className": "icon-studio-btn-up",
+        "unicode": "e92f"
+    },
+    {
+        "name": "icon-studio-btn-output",
+        "className": "icon-studio-btn-output",
+        "unicode": "e930"
+    },
+    {
+        "name": "icon-studio-btn-save",
+        "className": "icon-studio-btn-save",
+        "unicode": "e931"
+    },
+    {
+        "name": "icon-studio-btn-history",
+        "className": "icon-studio-btn-history",
+        "unicode": "e932"
+    },
+    {
+        "name": "icon-studio-btn-clear",
+        "className": "icon-studio-btn-clear",
+        "unicode": "e933"
+    },
+    {
+        "name": "icon-btn-template",
+        "className": "icon-btn-template",
+        "unicode": "e934"
+    },
+    {
+        "name": "icon-list-filterOpen",
+        "className": "icon-list-filterOpen",
+        "unicode": "e935"
+    },
+    {
+        "name": "icon-list-filterClose",
+        "className": "icon-list-filterClose",
+        "unicode": "e936"
+    },
+    {
+        "name": "icon-navbar-setting",
+        "className": "icon-navbar-setting",
+        "unicode": "e937"
+    },
+    {
+        "name": "icon-studio-nav-help",
+        "className": "icon-studio-nav-help",
+        "unicode": "e938"
+    },
+    {
+        "name": "icon-studio-more",
+        "className": "icon-studio-more",
+        "unicode": "e939"
+    },
+    {
+        "name": "icon-studio-btn-refresh",
+        "className": "icon-studio-btn-refresh",
+        "unicode": "e93a"
+    },
+    {
+        "name": "icon-studio-btn-return",
+        "className": "icon-studio-btn-return",
+        "unicode": "e93b"
+    },
+    {
+        "name": "icon-studio-plan",
+        "className": "icon-studio-plan",
+        "unicode": "e93c"
+    },
+    {
+        "name": "icon-studio-console-change",
+        "className": "icon-studio-console-change",
+        "unicode": "e93d"
+    },
+    {
+        "name": "icon-image-icon20",
+        "className": "icon-image-icon20",
+        "unicode": "e93e"
+    },
+    {
+        "name": "icon-Thumbnail-fullscreen",
+        "className": "icon-Thumbnail-fullscreen",
+        "unicode": "e93f"
+    },
+    {
+        "name": "icon-Thumbnail-moveCanvas",
+        "className": "icon-Thumbnail-moveCanvas",
+        "unicode": "e940"
+    },
+    {
+        "name": "icon-Thumbnail-zoomin",
+        "className": "icon-Thumbnail-zoomin",
+        "unicode": "e941"
+    },
+    {
+        "name": "icon-Thumbnail-zoomout",
+        "className": "icon-Thumbnail-zoomout",
+        "unicode": "e942"
+    },
+    {
+        "name": "icon-Thumbnail-pack_up",
+        "className": "icon-Thumbnail-pack_up",
+        "unicode": "e943"
+    },
+    {
+        "name": "icon-Thumbnail-sphereView",
+        "className": "icon-Thumbnail-sphereView",
+        "unicode": "e944"
+    },
+    {
+        "name": "icon-Thumbnail-treeView",
+        "className": "icon-Thumbnail-treeView",
+        "unicode": "e945"
+    },
+    {
+        "name": "icon-Thumbnail-pack_up2",
+        "className": "icon-Thumbnail-pack_up2",
+        "unicode": "e946"
+    },
+    {
+        "name": "icon-Thumbnail-neuralNetwork",
+        "className": "icon-Thumbnail-neuralNetwork",
+        "unicode": "e947"
+    },
+    {
+        "name": "icon-Thumbnail-Radial",
+        "className": "icon-Thumbnail-Radial",
+        "unicode": "e948"
+    },
+    {
+        "name": "icon-Thumbnail-Grid",
+        "className": "icon-Thumbnail-Grid",
+        "unicode": "e949"
+    },
+    {
+        "name": "icon-Thumbnail-pack_down",
+        "className": "icon-Thumbnail-pack_down",
+        "unicode": "e94a"
+    },
+    {
+        "name": "icon-login-Language",
+        "className": "icon-login-Language",
+        "unicode": "e94b"
+    },
+    {
+        "name": "icon-topbar-export",
+        "className": "icon-topbar-export",
+        "unicode": "e94c"
+    },
+    {
+        "name": "icon-topbar-down",
+        "className": "icon-topbar-down",
+        "unicode": "e94d"
+    },
+    {
+        "name": "icon-topbar-close",
+        "className": "icon-topbar-close",
+        "unicode": "e94e"
+    },
+    {
+        "name": "icon-topbar-addnew",
+        "className": "icon-topbar-addnew",
+        "unicode": "e94f"
+    },
+    {
+        "name": "icon-sidebar-unfold",
+        "className": "icon-sidebar-unfold",
+        "unicode": "e950"
+    },
+    {
+        "name": "icon-topbar-exportCSV",
+        "className": "icon-topbar-exportCSV",
+        "unicode": "e951"
+    },
+    {
+        "name": "icon-topbar-exportSVG",
+        "className": "icon-topbar-exportSVG",
+        "unicode": "e952"
+    },
+    {
+        "name": "icon-topbar-exportPNG",
+        "className": "icon-topbar-exportPNG",
+        "unicode": "e953"
+    },
+    {
+        "name": "icon-graph-snapshot",
+        "className": "icon-graph-snapshot",
+        "unicode": "e954"
+    },
+    {
+        "name": "icon-console-export",
+        "className": "icon-console-export",
+        "unicode": "e955"
+    },
+    {
+        "name": "icon-topbar-BirdView",
+        "className": "icon-topbar-BirdView",
+        "unicode": "e956"
+    },
+    {
+        "name": "icon-topbar-autoSize",
+        "className": "icon-topbar-autoSize",
+        "unicode": "e957"
+    },
+    {
+        "name": "icon-topbar-resetSize",
+        "className": "icon-topbar-resetSize",
+        "unicode": "e958"
+    },
+    {
+        "name": "icon-topbar-isolatedVertex",
+        "className": "icon-topbar-isolatedVertex",
+        "unicode": "e959"
+    },
+    {
+        "name": "icon-topbar-hangEdge",
+        "className": "icon-topbar-hangEdge",
+        "unicode": "e95a"
+    },
+    {
+        "name": "icon-topbar-circle",
+        "className": "icon-topbar-circle",
+        "unicode": "e95b"
+    },
+    {
+        "name": "icon-canvas-search",
+        "className": "icon-canvas-search",
+        "unicode": "e95c"
+    },
+    {
+        "name": "icon-topbar-relations",
+        "className": "icon-topbar-relations",
+        "unicode": "e95d"
+    },
+    {
+        "name": "icon-topbar-oneDegree",
+        "className": "icon-topbar-oneDegree",
+        "unicode": "e95e"
+    },
+    {
+        "name": "icon-topbar-autoEdgeClustering",
+        "className": "icon-topbar-autoEdgeClustering",
+        "unicode": "e95f"
+    },
+    {
+        "name": "icon-topbar-cancelAutoEdgeClustering",
+        "className": "icon-topbar-cancelAutoEdgeClustering",
+        "unicode": "e960"
+    },
+    {
+        "name": "icon-topbar-edgeClustering",
+        "className": "icon-topbar-edgeClustering",
+        "unicode": "e961"
+    },
+    {
+        "name": "icon-topbar-cancelEdgeClustering",
+        "className": "icon-topbar-cancelEdgeClustering",
+        "unicode": "e962"
+    },
+    {
+        "name": "icon-exportImg",
+        "className": "icon-exportImg",
+        "unicode": "e963"
+    },
+    {
+        "name": "icon-showTable",
+        "className": "icon-showTable",
+        "unicode": "e964"
+    },
+    {
+        "name": "icon-list-down",
+        "className": "icon-list-down",
+        "unicode": "e965"
+    },
+    {
+        "name": "icon-list-up",
+        "className": "icon-list-up",
+        "unicode": "e966"
+    },
+    {
+        "name": "icon-list-right",
+        "className": "icon-list-right",
+        "unicode": "e967"
+    },
+    {
+        "name": "icon-list-left",
+        "className": "icon-list-left",
+        "unicode": "e968"
+    },
+    {
+        "name": "icon-list-delete",
+        "className": "icon-list-delete",
+        "unicode": "e969"
+    },
+    {
+        "name": "icon-list-filter",
+        "className": "icon-list-filter",
+        "unicode": "e96a"
+    },
+    {
+        "name": "icon-list-add",
+        "className": "icon-list-add",
+        "unicode": "e96b"
+    },
+    {
+        "name": "icon-list-unfold",
+        "className": "icon-list-unfold",
+        "unicode": "e96c"
+    },
+    {
+        "name": "icon-rightclickmenu-expand",
+        "className": "icon-rightclickmenu-expand",
+        "unicode": "e96d"
+    },
+    {
+        "name": "icon-rightclickmenu-commonNeighbor",
+        "className": "icon-rightclickmenu-commonNeighbor",
+        "unicode": "e96e"
+    },
+    {
+        "name": "icon-rightclickmenu-findPath",
+        "className": "icon-rightclickmenu-findPath",
+        "unicode": "e96f"
+    },
+    {
+        "name": "icon-rightclickmenu-graphCalculation",
+        "className": "icon-rightclickmenu-graphCalculation",
+        "unicode": "e970"
+    },
+    {
+        "name": "icon-rightclickmenu-inspectProperty",
+        "className": "icon-rightclickmenu-inspectProperty",
+        "unicode": "e971"
+    },
+    {
+        "name": "icon-rightclickmenu-invertSelection",
+        "className": "icon-rightclickmenu-invertSelection",
+        "unicode": "e972"
+    },
+    {
+        "name": "icon-rightclickmenu-fitToSelection",
+        "className": "icon-rightclickmenu-fitToSelection",
+        "unicode": "e973"
+    },
+    {
+        "name": "icon-rightclickmenu-duplicate",
+        "className": "icon-rightclickmenu-duplicate",
+        "unicode": "e974"
+    },
+    {
+        "name": "icon-image-icon1",
+        "className": "icon-image-icon1",
+        "unicode": "e975"
+    },
+    {
+        "name": "icon-image-icon2",
+        "className": "icon-image-icon2",
+        "unicode": "e976"
+    },
+    {
+        "name": "icon-image-icon3",
+        "className": "icon-image-icon3",
+        "unicode": "e977"
+    },
+    {
+        "name": "icon-image-icon4",
+        "className": "icon-image-icon4",
+        "unicode": "e978"
+    },
+    {
+        "name": "icon-image-icon5",
+        "className": "icon-image-icon5",
+        "unicode": "e979"
+    },
+    {
+        "name": "icon-image-icon6",
+        "className": "icon-image-icon6",
+        "unicode": "e97a"
+    },
+    {
+        "name": "icon-image-icon7",
+        "className": "icon-image-icon7",
+        "unicode": "e97b"
+    },
+    {
+        "name": "icon-image-icon8",
+        "className": "icon-image-icon8",
+        "unicode": "e97c"
+    },
+    {
+        "name": "icon-image-icon9",
+        "className": "icon-image-icon9",
+        "unicode": "e97d"
+    },
+    {
+        "name": "icon-image-icon10",
+        "className": "icon-image-icon10",
+        "unicode": "e97e"
+    },
+    {
+        "name": "icon-image-icon11",
+        "className": "icon-image-icon11",
+        "unicode": "e97f"
+    },
+    {
+        "name": "icon-image-icon12",
+        "className": "icon-image-icon12",
+        "unicode": "e980"
+    },
+    {
+        "name": "icon-image-icon13",
+        "className": "icon-image-icon13",
+        "unicode": "e981"
+    },
+    {
+        "name": "icon-image-icon14",
+        "className": "icon-image-icon14",
+        "unicode": "e982"
+    },
+    {
+        "name": "icon-image-icon15",
+        "className": "icon-image-icon15",
+        "unicode": "e983"
+    },
+    {
+        "name": "icon-image-icon16",
+        "className": "icon-image-icon16",
+        "unicode": "e984"
+    },
+    {
+        "name": "icon-image-iconUnselect",
+        "className": "icon-image-iconUnselect",
+        "unicode": "e985"
+    },
+    {
+        "name": "icon-image-icon17",
+        "className": "icon-image-icon17",
+        "unicode": "e986"
+    },
+    {
+        "name": "icon-image-icon18",
+        "className": "icon-image-icon18",
+        "unicode": "e987"
+    },
+    {
+        "name": "icon-image-icon19",
+        "className": "icon-image-icon19",
+        "unicode": "e988"
+    },
+    {
+        "name": "icon-image-icon22",
+        "className": "icon-image-icon22",
+        "unicode": "e989"
+    },
+    {
+        "name": "icon-image-icon23",
+        "className": "icon-image-icon23",
+        "unicode": "e98a"
+    },
+    {
+        "name": "icon-image-icon29",
+        "className": "icon-image-icon29",
+        "unicode": "e98b"
+    },
+    {
+        "name": "icon-image-icon28",
+        "className": "icon-image-icon28",
+        "unicode": "e98c"
+    },
+    {
+        "name": "icon-image-icon27",
+        "className": "icon-image-icon27",
+        "unicode": "e98d"
+    },
+    {
+        "name": "icon-image-icon26",
+        "className": "icon-image-icon26",
+        "unicode": "e98e"
+    },
+    {
+        "name": "icon-image-icon25",
+        "className": "icon-image-icon25",
+        "unicode": "e98f"
+    },
+    {
+        "name": "icon-image-icon24",
+        "className": "icon-image-icon24",
+        "unicode": "e990"
+    },
+    {
+        "name": "icon-workflow-run",
+        "className": "icon-workflow-run",
+        "unicode": "e991"
+    },
+    {
+        "name": "icon-workflow-stop",
+        "className": "icon-workflow-stop",
+        "unicode": "e992"
+    },
+    {
+        "name": "icon-workflow-open",
+        "className": "icon-workflow-open",
+        "unicode": "e993"
+    },
+    {
+        "name": "icon-workflow-jobs",
+        "className": "icon-workflow-jobs",
+        "unicode": "e994"
+    },
+    {
+        "name": "icon-workflow-more",
+        "className": "icon-workflow-more",
+        "unicode": "e995"
+    },
+    {
+        "name": "icon-workflow-viewResult",
+        "className": "icon-workflow-viewResult",
+        "unicode": "e996"
+    },
+    {
+        "name": "icon-workflow-viewLog",
+        "className": "icon-workflow-viewLog",
+        "unicode": "e997"
+    },
+    {
+        "name": "icon-workflow-configuration",
+        "className": "icon-workflow-configuration",
+        "unicode": "e998"
+    },
+    {
+        "name": "icon-workflow-comparison",
+        "className": "icon-workflow-comparison",
+        "unicode": "e999"
+    },
+    {
+        "name": "icon-workflow-Component-Path",
+        "className": "icon-workflow-Component-Path",
+        "unicode": "e99a"
+    },
+    {
+        "name": "icon-workflow-Component-Node-measurement",
+        "className": "icon-workflow-Component-Node-measurement",
+        "unicode": "e99b"
+    },
+    {
+        "name": "icon-workflow-Component-Graph-feature",
+        "className": "icon-workflow-Component-Graph-feature",
+        "unicode": "e99c"
+    },
+    {
+        "name": "icon-workflow-Component-Community-discovery",
+        "className": "icon-workflow-Component-Community-discovery",
+        "unicode": "e99d"
+    },
+    {
+        "name": "icon-workflow-Component-Clustering",
+        "className": "icon-workflow-Component-Clustering",
+        "unicode": "e99e"
+    },
+    {
+        "name": "icon-workflow-Component-Query",
+        "className": "icon-workflow-Component-Query",
+        "unicode": "e99f"
+    },
+    {
+        "name": "icon-workflow-script",
+        "className": "icon-workflow-script",
+        "unicode": "e9a0"
+    },
+    {
+        "name": "icon-workflow-save",
+        "className": "icon-workflow-save",
+        "unicode": "e9a1"
+    },
+    {
+        "name": "icon-workflow-saveAs",
+        "className": "icon-workflow-saveAs",
+        "unicode": "e9a2"
+    },
+    {
+        "name": "icon-workflow-search",
+        "className": "icon-workflow-search",
+        "unicode": "e9a3"
+    },
+    {
+        "name": "icon-workflow-history",
+        "className": "icon-workflow-history",
+        "unicode": "e9a4"
+    },
+    {
+        "name": "icon-workflow-autoLayout",
+        "className": "icon-workflow-autoLayout",
+        "unicode": "e9a5"
+    },
+    {
+        "name": "icon-TreeDiagram",
+        "className": "icon-TreeDiagram",
+        "unicode": "e9a6"
+    },
+    {
+        "name": "icon-snapshot-export",
+        "className": "icon-snapshot-export",
+        "unicode": "e9a7"
+    },
+    {
+        "name": "icon-snapshot-delete",
+        "className": "icon-snapshot-delete",
+        "unicode": "e9a8"
+    },
+    {
+        "name": "icon-snapshot-import",
+        "className": "icon-snapshot-import",
+        "unicode": "e9a9"
+    },
+    {
+        "name": "icon-Duplicate",
+        "className": "icon-Duplicate",
+        "unicode": "e9aa"
+    },
+    {
+        "name": "icon-visual-filter",
+        "className": "icon-visual-filter",
+        "unicode": "e9ab"
+    },
+    {
+        "name": "icon-visual-nav-select",
+        "className": "icon-visual-nav-select",
+        "unicode": "e9ac"
+    },
+    {
+        "name": "icon-visual-nav-zoomin",
+        "className": "icon-visual-nav-zoomin",
+        "unicode": "e9ad"
+    },
+    {
+        "name": "icon-visual-nav-zoomout",
+        "className": "icon-visual-nav-zoomout",
+        "unicode": "e9ae"
+    },
+    {
+        "name": "icon-visual-nav-save",
+        "className": "icon-visual-nav-save",
+        "unicode": "e9af"
+    },
+    {
+        "name": "icon-visual-nav-history",
+        "className": "icon-visual-nav-history",
+        "unicode": "e9b0"
+    },
+    {
+        "name": "icon-visual-nav-output",
+        "className": "icon-visual-nav-output",
+        "unicode": "e9b1"
+    },
+    {
+        "name": "icon-visual-border-adaptive",
+        "className": "icon-visual-border-adaptive",
+        "unicode": "e9b2"
+    },
+    {
+        "name": "icon-navbar-explorer",
+        "className": "icon-navbar-explorer",
+        "unicode": "e9b3"
+    },
+    {
+        "name": "icon-navbar-schema",
+        "className": "icon-navbar-schema",
+        "unicode": "e9b4"
+    },
+    {
+        "name": "icon-navbar-import",
+        "className": "icon-navbar-import",
+        "unicode": "e9b5"
+    },
+    {
+        "name": "icon-navbar-console",
+        "className": "icon-navbar-console",
+        "unicode": "e9b6"
+    },
+    {
+        "name": "icon-navbar-language",
+        "className": "icon-navbar-language",
+        "unicode": "e9b7"
+    },
+    {
+        "name": "icon-navbar-queryTemplate",
+        "className": "icon-navbar-queryTemplate",
+        "unicode": "e9b8"
+    },
+    {
+        "name": "icon-navbar-sketch",
+        "className": "icon-navbar-sketch",
+        "unicode": "e9b9"
+    },
+    {
+        "name": "icon-navbar-doc",
+        "className": "icon-navbar-doc",
+        "unicode": "e9ba"
+    },
+    {
+        "name": "icon-navbar-video",
+        "className": "icon-navbar-video",
+        "unicode": "e9bb"
+    },
+    {
+        "name": "icon-navbar-beginner",
+        "className": "icon-navbar-beginner",
+        "unicode": "e9bc"
+    },
+    {
+        "name": "icon-navbar-keys",
+        "className": "icon-navbar-keys",
+        "unicode": "e9bd"
+    },
+    {
+        "name": "icon-navbar-userAuthorization",
+        "className": "icon-navbar-userAuthorization",
+        "unicode": "e9be"
+    },
+    {
+        "name": "icon-navbar-dbLink",
+        "className": "icon-navbar-dbLink",
+        "unicode": "e9bf"
+    },
+    {
+        "name": "icon-navbar-logout",
+        "className": "icon-navbar-logout",
+        "unicode": "e9c0"
+    },
+    {
+        "name": "icon-navbar-visualQuery",
+        "className": "icon-navbar-visualQuery",
+        "unicode": "e9c1"
+    },
+    {
+        "name": "icon-navbar-workflow",
+        "className": "icon-navbar-workflow",
+        "unicode": "e9c2"
+    },
+    {
+        "name": "icon-studio-nav-schema",
+        "className": "icon-studio-nav-schema",
+        "unicode": "e9c3"
+    },
+    {
+        "name": "icon-studio-nav-import",
+        "className": "icon-studio-nav-import",
+        "unicode": "e9c4"
+    },
+    {
+        "name": "icon-studio-nav-console",
+        "className": "icon-studio-nav-console",
+        "unicode": "e9c5"
+    },
+    {
+        "name": "icon-studio-nav-language",
+        "className": "icon-studio-nav-language",
+        "unicode": "e9c6"
+    },
+    {
+        "name": "icon-studio-nav-version",
+        "className": "icon-studio-nav-version",
+        "unicode": "e9c7"
+    },
+    {
+        "name": "icon-studio-nav-clear",
+        "className": "icon-studio-nav-clear",
+        "unicode": "e9c8"
+    },
+    {
+        "name": "icon-studio-btn-download",
+        "className": "icon-studio-btn-download",
+        "unicode": "e9c9"
+    },
+    {
+        "name": "icon-studio-btn-detail",
+        "className": "icon-studio-btn-detail",
+        "unicode": "e9ca"
+    },
+    {
+        "name": "icon-studio-btn-add",
+        "className": "icon-studio-btn-add",
+        "unicode": "e9cb"
+    },
+    {
+        "name": "icon-studio-btn-back",
+        "className": "icon-studio-btn-back",
+        "unicode": "e9cc"
+    },
+    {
+        "name": "icon-studio-btn-edit",
+        "className": "icon-studio-btn-edit",
+        "unicode": "e9cd"
+    },
+    {
+        "name": "icon-studio-btn-delete",
+        "className": "icon-studio-btn-delete",
+        "unicode": "e9ce"
+    },
+    {
+        "name": "icon-studio-btn-console",
+        "className": "icon-studio-btn-console",
+        "unicode": "e9cf"
+    },
+    {
+        "name": "icon-studio-btn-ddl",
+        "className": "icon-studio-btn-ddl",
+        "unicode": "e9d0"
+    },
+    {
+        "name": "icon-studio-btn-play",
+        "className": "icon-studio-btn-play",
+        "unicode": "e9d1"
+    },
+    {
+        "name": "icon-studio-btn-down",
+        "className": "icon-studio-btn-down",
+        "unicode": "e9d2"
+    },
+    {
+        "name": "icon-studio-btn-save-fill",
+        "className": "icon-studio-btn-save-fill",
+        "unicode": "e9d3"
+    },
+    {
+        "name": "icon-abnormal",
+        "className": "icon-abnormal",
+        "unicode": "e9d4"
+    },
+    {
+        "name": "icon-studio-console-graph",
+        "className": "icon-studio-console-graph",
+        "unicode": "e9d5"
+    },
+    {
+        "name": "icon-studio-console-table",
+        "className": "icon-studio-console-table",
+        "unicode": "e9d6"
+    },
+    {
+        "name": "icon-studio-console-logs",
+        "className": "icon-studio-console-logs",
+        "unicode": "e9d7"
+    },
+    {
+        "name": "icon-studio-console-graphviz",
+        "className": "icon-studio-console-graphviz",
+        "unicode": "e9d8"
+    },
+    {
+        "name": "icon-studio-console-lock",
+        "className": "icon-studio-console-lock",
+        "unicode": "e9d9"
+    },
+    {
+        "name": "icon-studio-console-unlock",
+        "className": "icon-studio-console-unlock",
+        "unicode": "e9da"
+    },
+    {
+        "name": "icon-studio-console-pop",
+        "className": "icon-studio-console-pop",
+        "unicode": "e9db"
+    },
+    {
+        "name": "icon-studio-console-zoomin",
+        "className": "icon-studio-console-zoomin",
+        "unicode": "e9dc"
+    },
+    {
+        "name": "icon-studio-console-zoomout",
+        "className": "icon-studio-console-zoomout",
+        "unicode": "e9dd"
+    },
+    {
+        "name": "icon-studio-console-move",
+        "className": "icon-studio-console-move",
+        "unicode": "e9de"
+    },
+    {
+        "name": "icon-studio-btn-upwards",
+        "className": "icon-studio-btn-upwards",
+        "unicode": "e9df"
+    },
+    {
+        "name": "icon-studio-btn-downwards",
+        "className": "icon-studio-btn-downwards",
+        "unicode": "e9e0"
+    },
+    {
+        "name": "icon-studio-btn-consoleSetting",
+        "className": "icon-studio-btn-consoleSetting",
+        "unicode": "e9e1"
+    },
+    {
+        "name": "icon-studio-btn-consoleGTP",
+        "className": "icon-studio-btn-consoleGTP",
+        "unicode": "e9e2"
+    },
+    {
+        "name": "icon-studio-btn-consoleTip",
+        "className": "icon-studio-btn-consoleTip",
+        "unicode": "e9e3"
+    },
+    {
+        "name": "icon-robot-excited-outline",
+        "className": "icon-robot-excited-outline",
+        "unicode": "e9e4"
+    }
+]

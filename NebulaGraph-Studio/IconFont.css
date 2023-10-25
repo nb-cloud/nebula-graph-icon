@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "IconFont";
+    src: url('IconFont.woff2?t=1662532859227') format('woff2'),
+        url('IconFont.woff?t=1662532859227') format('woff'),
+        url('IconFont.ttf?t=1662532859227') format('truetype');
+}
+
+.iconfont {
+    font-family: "IconFont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-studio-nav-github:before { content: "\e900"; }
+.icon-studio-nav-schema:before { content: "\e901"; }
+.icon-studio-nav-import:before { content: "\e902"; }
+.icon-studio-nav-console:before { content: "\e903"; }
+.icon-studio-nav-help:before { content: "\e904"; }
+.icon-studio-nav-language:before { content: "\e905"; }
+.icon-studio-btn-edit:before { content: "\e906"; }
+.icon-studio-btn-delete:before { content: "\e907"; }
+.icon-studio-btn-download:before { content: "\e908"; }
+.icon-studio-btn-detail:before { content: "\e909"; }
+.icon-studio-btn-save:before { content: "\e90a"; }
+.icon-studio-btn-history:before { content: "\e90b"; }
+.icon-studio-btn-clear:before { content: "\e90c"; }
+.icon-studio-console-table:before { content: "\e90d"; }
+.icon-studio-console-pop:before { content: "\e90e"; }
+.icon-studio-console-lock:before { content: "\e90f"; }
+.icon-studio-btn-add:before { content: "\e910"; }
+.icon-studio-console-graph:before { content: "\e911"; }
+.icon-studio-btn-return:before { content: "\e912"; }
+.icon-studio-btn-back:before { content: "\e913"; }
+.icon-studio-btn-play:before { content: "\e914"; }
+.icon-studio-btn-down:before { content: "\e915"; }
+.icon-studio-console-logs:before { content: "\e916"; }
+.icon-studio-console-graphviz:before { content: "\e917"; }
+.icon-studio-console-move:before { content: "\e918"; }
+.icon-studio-console-zoomin:before { content: "\e919"; }
+.icon-studio-console-zoomout:before { content: "\e91a"; }
+.icon-studio-btn-up:before { content: "\e91b"; }
+.icon-studio-console-unlock:before { content: "\e91c"; }
+.icon-studio-nav-version:before { content: "\e91d"; }
+.icon-studio-nav-clear:before { content: "\e91e"; }
+.icon-studio-btn-save-fill:before { content: "\e91f"; }
+.icon-studio-btn-output:before { content: "\e920"; }
+.icon-studio-btn-close:before { content: "\e921"; }
+.icon-studio-more:before { content: "\e922"; }
+.icon-studio-btn-console:before { content: "\e923"; }
+
+
+/**
+ * Make by Icon Font Exporter
+ * https://www.figma.com/community/plugin/1129455674275940478/Icon-Font-Exporter
+ */

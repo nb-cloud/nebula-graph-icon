@@ -1,0 +1,182 @@
+[
+    {
+        "name": "studio-nav-github",
+        "className": "studio-nav-github",
+        "unicode": "e900"
+    },
+    {
+        "name": "studio-nav-schema",
+        "className": "studio-nav-schema",
+        "unicode": "e901"
+    },
+    {
+        "name": "studio-nav-import",
+        "className": "studio-nav-import",
+        "unicode": "e902"
+    },
+    {
+        "name": "studio-nav-console",
+        "className": "studio-nav-console",
+        "unicode": "e903"
+    },
+    {
+        "name": "studio-nav-help",
+        "className": "studio-nav-help",
+        "unicode": "e904"
+    },
+    {
+        "name": "studio-nav-language",
+        "className": "studio-nav-language",
+        "unicode": "e905"
+    },
+    {
+        "name": "studio-btn-edit",
+        "className": "studio-btn-edit",
+        "unicode": "e906"
+    },
+    {
+        "name": "studio-btn-delete",
+        "className": "studio-btn-delete",
+        "unicode": "e907"
+    },
+    {
+        "name": "studio-btn-download",
+        "className": "studio-btn-download",
+        "unicode": "e908"
+    },
+    {
+        "name": "studio-btn-detail",
+        "className": "studio-btn-detail",
+        "unicode": "e909"
+    },
+    {
+        "name": "studio-btn-save",
+        "className": "studio-btn-save",
+        "unicode": "e90a"
+    },
+    {
+        "name": "studio-btn-history",
+        "className": "studio-btn-history",
+        "unicode": "e90b"
+    },
+    {
+        "name": "studio-btn-clear",
+        "className": "studio-btn-clear",
+        "unicode": "e90c"
+    },
+    {
+        "name": "studio-console-table",
+        "className": "studio-console-table",
+        "unicode": "e90d"
+    },
+    {
+        "name": "studio-console-pop",
+        "className": "studio-console-pop",
+        "unicode": "e90e"
+    },
+    {
+        "name": "studio-console-lock",
+        "className": "studio-console-lock",
+        "unicode": "e90f"
+    },
+    {
+        "name": "studio-btn-add",
+        "className": "studio-btn-add",
+        "unicode": "e910"
+    },
+    {
+        "name": "studio-console-graph",
+        "className": "studio-console-graph",
+        "unicode": "e911"
+    },
+    {
+        "name": "studio-btn-return",
+        "className": "studio-btn-return",
+        "unicode": "e912"
+    },
+    {
+        "name": "studio-btn-back",
+        "className": "studio-btn-back",
+        "unicode": "e913"
+    },
+    {
+        "name": "studio-btn-play",
+        "className": "studio-btn-play",
+        "unicode": "e914"
+    },
+    {
+        "name": "studio-btn-down",
+        "className": "studio-btn-down",
+        "unicode": "e915"
+    },
+    {
+        "name": "studio-console-logs",
+        "className": "studio-console-logs",
+        "unicode": "e916"
+    },
+    {
+        "name": "studio-console-graphviz",
+        "className": "studio-console-graphviz",
+        "unicode": "e917"
+    },
+    {
+        "name": "studio-console-move",
+        "className": "studio-console-move",
+        "unicode": "e918"
+    },
+    {
+        "name": "studio-console-zoomin",
+        "className": "studio-console-zoomin",
+        "unicode": "e919"
+    },
+    {
+        "name": "studio-console-zoomout",
+        "className": "studio-console-zoomout",
+        "unicode": "e91a"
+    },
+    {
+        "name": "studio-btn-up",
+        "className": "studio-btn-up",
+        "unicode": "e91b"
+    },
+    {
+        "name": "studio-console-unlock",
+        "className": "studio-console-unlock",
+        "unicode": "e91c"
+    },
+    {
+        "name": "studio-nav-version",
+        "className": "studio-nav-version",
+        "unicode": "e91d"
+    },
+    {
+        "name": "studio-nav-clear",
+        "className": "studio-nav-clear",
+        "unicode": "e91e"
+    },
+    {
+        "name": "studio-btn-save-fill",
+        "className": "studio-btn-save-fill",
+        "unicode": "e91f"
+    },
+    {
+        "name": "studio-btn-output",
+        "className": "studio-btn-output",
+        "unicode": "e920"
+    },
+    {
+        "name": "studio-btn-close",
+        "className": "studio-btn-close",
+        "unicode": "e921"
+    },
+    {
+        "name": "studio-more",
+        "className": "studio-more",
+        "unicode": "e922"
+    },
+    {
+        "name": "studio-btn-console",
+        "className": "studio-btn-console",
+        "unicode": "e923"
+    }
+]

@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css"></link>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+
+            color: #005bcc;
+        }
+        .list {
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 16px;
+        }
+        .item {
+            width: 80px;
+            height: 80px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            border: 1px dashed #333;
+        }
+        .article {
+            max-width: 400px;
+            padding-left: 16px;
+        }
+    </style>
+    <script src="./Iconfont.js"></script>
+</head>
+<body>
+    <div class="list">
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#AccountCircleFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#AccountCircleOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#AddFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#AddOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowBackFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowDownwardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowDropDownFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowDropDownOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowForwardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowUpwardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ArrowUpwardOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CachedFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CachedOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CancelFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CancelOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckBoxFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckBoxOutlineBlankFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckBoxOutlineBlankOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckBoxOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckCircleFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckCircleOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CheckFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ChevronLeftFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ChevronLeftOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ChevronRightFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ChevronRightOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CloseFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CloudFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#CloudOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentCopyFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentCopyOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentCutFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentCutOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentPasteFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ContentPasteOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#DateRangeFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#DateRangeOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#EditFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#EditOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ErrorFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ErrorOutline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ErrorOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ExpandLessFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ExpandMoreFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FastBackwardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FastForwardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FavoriteFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FolderFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FolderOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FormatAlignLeftFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#FormatAlignLeftOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#IndeterminateCheckBoxFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#IndeterminateCheckBoxOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#InfoOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#LocationOnFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#LocationOnOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#LogoutFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#LogoutOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MailFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MailOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MenuFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MoreHorizFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MoreVertFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#MoreVertOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#NotificationsFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Pause"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#PeopleFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#PersonAddFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#PersonFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#PhotoFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#PhotoOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#Play"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#QueryBuilderFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#QueryBuilderOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RadioButtonCheckedFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RadioButtonCheckedOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RadioButtonUncheckedFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RadioButtonUncheckedOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ReceiptFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ReceiptOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RemoveRedEyeFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RemoveRedEyeOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RestoreFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#RestoreOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SearchFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SearchOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SettingsFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SettingsOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ShoppingCartFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ShoppingCartOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SpaceDashboardFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#SpaceDashboardOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarBorderFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarBorderOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarHalfFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarHalfOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarOutlineFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarOutlineOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#StarOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ToggleOffFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ToggleOffOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ToggleOnFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ToggleOnOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#WarningAmberOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#WarningFilled"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#WarningOutlined"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ab-testing"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#all-merge"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#alpha-v-box"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ard-account-details"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ard-account-details-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-collapse-all"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-collapse-down"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-collapse-left"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-collapse-right"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-collapse-up"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-expand-all"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-top-left-bottom-right"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#arrow-top-left-bottom-right-bold"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#as"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#bell"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#bell-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#bell-ring"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#bell-ring-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#book"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#book-open-page-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#book-open-page-variant-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#book-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#database"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#de-array"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#de-braces-box"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#de-less-than"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#delete"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#delete-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#desktop-classic"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#dots-hexagon"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#earth"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ection"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#edge-type"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#explorer-data"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#explorer-data-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#eye-off"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#eye-off-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#face-agent"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#file-document"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#file-document-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-minus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-minus-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-plus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-plus-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#filter-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#formation-slab-box"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#formation-slab-box-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#github"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#graph"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#graph-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#hart-timeline-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#hart-timeline-variant-shimmer"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#help"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#help-box-multiple"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#help-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#help-circle-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key-minus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key-plus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key-remove"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key-star"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#key-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#laptop"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#license"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#lifebuoy"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#lock-reset"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#login-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#minus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#monitor-dashboard"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#moon-waxing-crescent"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#party-popper"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#query-template"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#rcle-medium"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#rcle-small"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#receipt-text"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#receipt-text-edit"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#receipt-text-edit-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sd"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#server"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#shape-plus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#shape-plus-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sitemap"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sitemap-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#slack"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sole-gtp"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sole-tip"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sort"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sort-alphabetical-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sort-ascending"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#sort-descending"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#stack-overflow"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#stethoscope"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#stop"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#swap-horizontal"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#swap-vertical"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#table"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#tablet-dashboard"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#te-edit"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#te-edit-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#text-box-search"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#text-box-search-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#transit-connection-variant"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#translate"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#tray-arrow-down"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#tray-arrow-up"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#twitter"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ube"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ube-off"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ube-off-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#ube-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-0-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-1-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-2-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-3-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-4-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-5-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-6-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-7-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-8-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#umeric-9-circle"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#upload"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#upload-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#video"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#video-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#view-column"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#view-column-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#view-grid-plus"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#view-sequential"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#view-sequential-outline"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#web"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#wechat"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#white-balance-sunny"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#widgets"></use>
+            </svg>
+        </div>
+        
+        <div class="item">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#widgets-outline"></use>
+            </svg>
+        </div>
+        
+    </div>
+    <article class="article">
+        <h1>How to use</h1>
+        <p>
+            Step 1: Include JS.
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">script</span><span style="">&nbsp;src=</span><span style="color: rgb(170, 17, 17)">&quot;./iconfont.js&quot;</span><span style="">&gt;&lt;/</span><span style="color: rgb(0, 136, 85)">script</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+        <p>
+            Step 2: Use CSS.
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">style</span><span style="">&gt;</span></div>
+                    <div class="line"><span style="">.</span><span style="color: rgb(17, 102, 119)">icon</span><span style="">&nbsp;{</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;width:&nbsp;</span><span style="color: rgb(17, 102, 68)">1</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;height:&nbsp;</span><span style="color: rgb(17, 102, 68)">1</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;vertical-align:&nbsp;</span><span style="color: rgb(17, 102, 68)">-0.15</span><span style="color: rgb(119, 0, 136)">em</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;fill:&nbsp;</span><span style="color: rgb(34, 17, 153)">currentColor</span><span style="">;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;overflow:&nbsp;</span><span style="color: rgb(34, 17, 153)">hidden</span><span style="">;</span></div>
+<div class="line"><span style="">}</span></div>
+                    <div class="line"><span style="">&lt;/</span><span style="color: rgb(0, 136, 85)">style</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+        <p>
+            Step 3: Use icon like this.
+            
+        </p>
+        <p>
+            <div class="code">
+                <div class="line"><span style="">&lt;</span><span style="color: rgb(0, 136, 85)">svg</span><span style="">&nbsp;class=</span><span style="color: rgb(170, 17, 17)">&quot;icon&quot;</span><span style="">&nbsp;aria-hidden=</span><span style="color: rgb(170, 17, 17)">&quot;true&quot;</span><span style="">&gt;</span></div>
+<div class="line"><span style="">&nbsp;&nbsp;&lt;</span><span style="color: rgb(0, 136, 85)">use</span><span style="">&nbsp;xlink:href=</span><span style="color: rgb(170, 17, 17)">&quot;#icon-xxx&quot;</span><span style="">&gt;&lt;/</span><span style="color: rgb(0, 136, 85)">use</span><span style="">&gt;</span></div>
+<div class="line"><span style="">&lt;/</span><span style="color: rgb(0, 136, 85)">svg</span><span style="">&gt;</span></div>
+            </div>
+        </p>
+
+    </article>
+</body>
+</html>

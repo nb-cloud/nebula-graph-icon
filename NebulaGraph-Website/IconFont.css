@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "IconFont";
+    src: url('IconFont.woff2?t=1676428503451') format('woff2'),
+        url('IconFont.woff?t=1676428503451') format('woff'),
+        url('IconFont.ttf?t=1676428503451') format('truetype');
+}
+
+.iconfont {
+    font-family: "IconFont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-facebook:before { content: "\e900"; }
+.icon-icon-forum:before { content: "\e901"; }
+.icon-icon-gitHub:before { content: "\e902"; }
+.icon-icon-linkedin:before { content: "\e903"; }
+.icon-icon-slack:before { content: "\e904"; }
+.icon-icon-twitter:before { content: "\e905"; }
+.icon-icon-wechat:before { content: "\e906"; }
+.icon-icon-weibo:before { content: "\e907"; }
+.icon-icon-youtube:before { content: "\e908"; }
+.icon-icon-bilibili:before { content: "\e909"; }
+.icon-icon-nav-expand:before { content: "\e90a"; }
+.icon-icon-nav-search:before { content: "\e90b"; }
+.icon-icon-Right-arrow:before { content: "\e90c"; }
+.icon-icon-Details-demo:before { content: "\e90d"; }
+.icon-icon-Details-pricing:before { content: "\e90e"; }
+.icon-icon-Docker:before { content: "\e90f"; }
+.icon-icon-Kubernetes:before { content: "\e910"; }
+.icon-icon-post-left-icon:before { content: "\e911"; }
+.icon-icon-post-down-icon:before { content: "\e912"; }
+.icon-icon-post-up-icon:before { content: "\e913"; }
+.icon-icon-post-right-icon:before { content: "\e914"; }
+.icon-icon-download:before { content: "\e915"; }
+.icon-icon-compare:before { content: "\e916"; }
+.icon-icon-Author:before { content: "\e917"; }
+.icon-icon-Date:before { content: "\e918"; }
+.icon-icon-files_icon:before { content: "\e919"; }
+.icon-icon-versionComparison:before { content: "\e91a"; }
+.icon-icon-copy:before { content: "\e91b"; }
+.icon-icon-assistant_wechat:before { content: "\e91c"; }
+.icon-icon-zhihu:before { content: "\e91d"; }
+.icon-icon-mail:before { content: "\e91e"; }
+.icon-icon-phone:before { content: "\e91f"; }
+.icon-icon-returnTop:before { content: "\e920"; }
+.icon-icon-event:before { content: "\e921"; }
+.icon-icon-customerService:before { content: "\e922"; }
+.icon-icon-language:before { content: "\e923"; }
+.icon-icon-product:before { content: "\e924"; }
+.icon-icon-Details-doc:before { content: "\e925"; }
+.icon-icon-algolia-clear:before { content: "\e926"; }
+.icon-icon-Right-arrow2:before { content: "\e927"; }
+.icon-icon-algolia-close:before { content: "\e928"; }
+.icon-icon-algolia-search:before { content: "\e929"; }
+.icon-icon-nav-menu:before { content: "\e92a"; }
+
+
+/**
+ * Make by Icon Font Exporter
+ * https://www.figma.com/community/plugin/1129455674275940478/Icon-Font-Exporter
+ */

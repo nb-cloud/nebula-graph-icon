@@ -1,0 +1,217 @@
+[
+    {
+        "name": "icon-facebook",
+        "className": "icon-facebook",
+        "unicode": "e900"
+    },
+    {
+        "name": "icon-forum",
+        "className": "icon-forum",
+        "unicode": "e901"
+    },
+    {
+        "name": "icon-gitHub",
+        "className": "icon-gitHub",
+        "unicode": "e902"
+    },
+    {
+        "name": "icon-linkedin",
+        "className": "icon-linkedin",
+        "unicode": "e903"
+    },
+    {
+        "name": "icon-slack",
+        "className": "icon-slack",
+        "unicode": "e904"
+    },
+    {
+        "name": "icon-twitter",
+        "className": "icon-twitter",
+        "unicode": "e905"
+    },
+    {
+        "name": "icon-wechat",
+        "className": "icon-wechat",
+        "unicode": "e906"
+    },
+    {
+        "name": "icon-weibo",
+        "className": "icon-weibo",
+        "unicode": "e907"
+    },
+    {
+        "name": "icon-youtube",
+        "className": "icon-youtube",
+        "unicode": "e908"
+    },
+    {
+        "name": "icon-bilibili",
+        "className": "icon-bilibili",
+        "unicode": "e909"
+    },
+    {
+        "name": "icon-nav-expand",
+        "className": "icon-nav-expand",
+        "unicode": "e90a"
+    },
+    {
+        "name": "icon-nav-search",
+        "className": "icon-nav-search",
+        "unicode": "e90b"
+    },
+    {
+        "name": "icon-Right-arrow",
+        "className": "icon-Right-arrow",
+        "unicode": "e90c"
+    },
+    {
+        "name": "icon-Details-demo",
+        "className": "icon-Details-demo",
+        "unicode": "e90d"
+    },
+    {
+        "name": "icon-Details-pricing",
+        "className": "icon-Details-pricing",
+        "unicode": "e90e"
+    },
+    {
+        "name": "icon-Docker",
+        "className": "icon-Docker",
+        "unicode": "e90f"
+    },
+    {
+        "name": "icon-Kubernetes",
+        "className": "icon-Kubernetes",
+        "unicode": "e910"
+    },
+    {
+        "name": "icon-post-left-icon",
+        "className": "icon-post-left-icon",
+        "unicode": "e911"
+    },
+    {
+        "name": "icon-post-down-icon",
+        "className": "icon-post-down-icon",
+        "unicode": "e912"
+    },
+    {
+        "name": "icon-post-up-icon",
+        "className": "icon-post-up-icon",
+        "unicode": "e913"
+    },
+    {
+        "name": "icon-post-right-icon",
+        "className": "icon-post-right-icon",
+        "unicode": "e914"
+    },
+    {
+        "name": "icon-download",
+        "className": "icon-download",
+        "unicode": "e915"
+    },
+    {
+        "name": "icon-compare",
+        "className": "icon-compare",
+        "unicode": "e916"
+    },
+    {
+        "name": "icon-Author",
+        "className": "icon-Author",
+        "unicode": "e917"
+    },
+    {
+        "name": "icon-Date",
+        "className": "icon-Date",
+        "unicode": "e918"
+    },
+    {
+        "name": "icon-files_icon",
+        "className": "icon-files_icon",
+        "unicode": "e919"
+    },
+    {
+        "name": "icon-versionComparison",
+        "className": "icon-versionComparison",
+        "unicode": "e91a"
+    },
+    {
+        "name": "icon-copy",
+        "className": "icon-copy",
+        "unicode": "e91b"
+    },
+    {
+        "name": "icon-assistant_wechat",
+        "className": "icon-assistant_wechat",
+        "unicode": "e91c"
+    },
+    {
+        "name": "icon-zhihu",
+        "className": "icon-zhihu",
+        "unicode": "e91d"
+    },
+    {
+        "name": "icon-mail",
+        "className": "icon-mail",
+        "unicode": "e91e"
+    },
+    {
+        "name": "icon-phone",
+        "className": "icon-phone",
+        "unicode": "e91f"
+    },
+    {
+        "name": "icon-returnTop",
+        "className": "icon-returnTop",
+        "unicode": "e920"
+    },
+    {
+        "name": "icon-event",
+        "className": "icon-event",
+        "unicode": "e921"
+    },
+    {
+        "name": "icon-customerService",
+        "className": "icon-customerService",
+        "unicode": "e922"
+    },
+    {
+        "name": "icon-language",
+        "className": "icon-language",
+        "unicode": "e923"
+    },
+    {
+        "name": "icon-product",
+        "className": "icon-product",
+        "unicode": "e924"
+    },
+    {
+        "name": "icon-Details-doc",
+        "className": "icon-Details-doc",
+        "unicode": "e925"
+    },
+    {
+        "name": "icon-algolia-clear",
+        "className": "icon-algolia-clear",
+        "unicode": "e926"
+    },
+    {
+        "name": "icon-Right-arrow2",
+        "className": "icon-Right-arrow2",
+        "unicode": "e927"
+    },
+    {
+        "name": "icon-algolia-close",
+        "className": "icon-algolia-close",
+        "unicode": "e928"
+    },
+    {
+        "name": "icon-algolia-search",
+        "className": "icon-algolia-search",
+        "unicode": "e929"
+    },
+    {
+        "name": "icon-nav-menu",
+        "className": "icon-nav-menu",
+        "unicode": "e92a"
+    }
+]
