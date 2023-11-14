@@ -29,9 +29,9 @@ npm publish
 ```
 
 # 预览链接
-- [Explorer&Studio](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Explorer/demo.html)
-- [Dashboard](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Dashboard/demo.html)
-- [Cloud](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Cloud/demo.html)
-- [Website](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Website/demo.html)
-- [Interface-Guidelines](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Interface-Guidelines/demo.html)
-- [Interface-Guidelines-Vesoft](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Interface-Guidelines-Vesoft/demo.html)
+- [Explorer&Studio](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Explorer/demo.html)
+- [Dashboard](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Dashboard/demo.html)
+- [Cloud](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Cloud/demo.html)
+- [Website](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Website/demo.html)
+- [Interface-Guidelines](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Interface-Guidelines/demo.html)
+- [Interface-Guidelines-Vesoft](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Interface-Guidelines-Vesoft/demo.html)
