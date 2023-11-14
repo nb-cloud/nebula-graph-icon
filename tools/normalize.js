@@ -83,5 +83,9 @@ targetNames.forEach((targetName) => {
 
   const distDir = path.resolve(__dirname, '../dist', targetName);
   !fs.existsSync(distDir) && fs.mkdirSync(distDir, { recursive: true });
-  fs.writeFileSync(path.resolve(distDir, 'svg-tpl.js'), `module.exports='${output}'`, { encoding: 'utf-8' });
+  fs.writeFileSync(path.resolve(distDir, 'svg-tpl.js'), `module.exports=\`${output}\``, { encoding: 'utf-8' });
+
+  const esDir = path.resolve(__dirname, '../es', targetName);
+  !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
+  fs.writeFileSync(path.resolve(esDir, 'svg-tpl.js'), `export default \`${output}\``, { encoding: 'utf-8' });
 });
