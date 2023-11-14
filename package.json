@@ -1,0 +1,37 @@
+{
+  "name": "@vesoft-inc/icons",
+  "version": "1.0.0-beta.1",
+  "description": "Icons",
+  "type": "module",
+  "main": "dist/",
+  "scripts": {
+    "build": "node ./tools/normalize.js",
+    "build:Cloud": "node ./tools/normalize.js NebulaGraph-Cloud",
+    "build:Dashboard": "node ./tools/normalize.js NebulaGraph-Dashboard",
+    "build:Explorer": "node ./tools/normalize.js NebulaGraph-Explorer",
+    "build:Guidelines": "node ./tools/normalize.js NebulaGraph-Interface-Guidelines",
+    "build:Guidelines-Vesoft": "node ./tools/normalize.js NebulaGraph-Interface-Guidelines-Vesoft",
+    "build:Studio": "node ./tools/normalize.js NebulaGraph-Studio",
+    "build:Website": "node ./tools/normalize.js NebulaGraph-Website",
+    "clean": "rimraf ./dist/*",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "author": {
+    "name": "bruce.lu",
+    "email": "huaxiabuluo@hotmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/nb-cloud/nebula-graph-icon",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/generator": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/types": "^7.23.3",
+    "rimraf": "^5.0.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

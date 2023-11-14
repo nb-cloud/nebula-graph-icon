@@ -1,0 +1,36 @@
+name: Publish Package to npmjs
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+          path: source/nebula-graph-icon
+          fetch-depth: 2
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
+      # - run: npm ci
+      - run: |
+          if node ./source/nebula-graph-icon/tools/publish-check.js; then
+            echo "Version not changed, skipping publish."
+          elif [ $? -eq 1 ]; then
+            echo "Version changed, publishing to npm..."
+            cd ./source/nebula-graph-icon
+            npm install
+            npm publish
+          else
+            echo "Version changed, publishing to npm with beta tag..."
+            cd ./source/nebula-graph-icon
+            npm install
+            npm publish --tag beta
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
