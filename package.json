@@ -1,9 +1,9 @@
 {
   "name": "@vesoft-inc/icons",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "description": "Icons",
   "type": "module",
-  "main": "dist/",
+  "main": "lib/",
   "module": "es/",
   "scripts": {
     "build": "node ./tools/normalize.js",

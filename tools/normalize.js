@@ -81,11 +81,11 @@ targetNames.forEach((targetName) => {
   const dstCode = dstCodeArr.join('\n');
   const output = `<svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;">\n${dstCode}\n</svg>`;
 
-  const distDir = path.resolve(__dirname, '../dist', targetName);
-  !fs.existsSync(distDir) && fs.mkdirSync(distDir, { recursive: true });
-  fs.writeFileSync(path.resolve(distDir, 'svg-tpl.js'), `module.exports=\`${output}\``, { encoding: 'utf-8' });
+  const libDir = path.resolve(__dirname, '../lib', targetName);
+  !fs.existsSync(libDir) && fs.mkdirSync(libDir, { recursive: true });
+  fs.writeFileSync(path.resolve(libDir, 'svg-tpl.cjs'), `module.exports=\`${output}\``, { encoding: 'utf-8' });
 
   const esDir = path.resolve(__dirname, '../es', targetName);
   !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
-  fs.writeFileSync(path.resolve(esDir, 'svg-tpl.js'), `export default \`${output}\``, { encoding: 'utf-8' });
+  fs.writeFileSync(path.resolve(esDir, 'svg-tpl.mjs'), `export default \`${output}\``, { encoding: 'utf-8' });
 });
