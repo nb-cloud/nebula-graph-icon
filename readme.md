@@ -7,4 +7,5 @@ Open demo.html preview icon
 - [Dashboard](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Dashboard/demo.html)
 - [Cloud](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Cloud/demo.html)
 - [Website](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Website/demo.html)
-- [Interface-Guidelines](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Interface-Guidelines%20/demo.html)
+- [Interface-Guidelines](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Interface-Guidelines/demo.html)
+- [Interface-Guidelines-Vesoft](http://cifangbifang.com/nebula-graph-icon/NebulaGraph-Interface-Guidelines-Vesoft/demo.html)
