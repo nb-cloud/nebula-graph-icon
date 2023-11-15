@@ -1,3 +1,16 @@
+# Usage
+```bash
+npm install --save @vesoft-inc/icons
+```
+
+Each `svg-tpl.cjs` file nestled within the lib subdirectories proffers an exportation of the `SVG Icon Element` string.
+
+```js
+import SVGElement from '@vesoft-inc/icons/lib/NebulaGraph-Explorer/svg-tpl.cjs';
+
+// inject `SVGElement` string into your html
+```
+
 # Build
 ```bash
 npm install
@@ -25,10 +38,13 @@ dist
 # Publish
 ```bash
 # npm publish --tag beta
-npm publish
+# npm publish
 ```
+`Auto Publish`: push code to `mian` branch, github workflow will be triggered automatically.
+- `1.0.0-beta.x` will be published as a beta package
+- `1.0.0` will be published as a normal package
 
-# 预览链接
+# Preview
 - [Explorer&Studio](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Explorer/demo.html)
 - [Dashboard](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Dashboard/demo.html)
 - [Cloud](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Cloud/demo.html)
