@@ -1143,5 +1143,70 @@
         "name": "icon-robot-excited-outline",
         "className": "icon-robot-excited-outline",
         "unicode": "e9e4"
+    },
+    {
+        "name": "icon-vesoft-explorer-data",
+        "className": "icon-vesoft-explorer-data",
+        "unicode": "e9e5"
+    },
+    {
+        "name": "icon-vesoft-sitemap-outline",
+        "className": "icon-vesoft-sitemap-outline",
+        "unicode": "e9e6"
+    },
+    {
+        "name": "icon-vesoft-stethoscope",
+        "className": "icon-vesoft-stethoscope",
+        "unicode": "e9e7"
+    },
+    {
+        "name": "icon-vesoft-table",
+        "className": "icon-vesoft-table",
+        "unicode": "e9e8"
+    },
+    {
+        "name": "icon-vesoft-explorer-data-outline",
+        "className": "icon-vesoft-explorer-data-outline",
+        "unicode": "e9e9"
+    },
+    {
+        "name": "icon-vesoft-sitemap",
+        "className": "icon-vesoft-sitemap",
+        "unicode": "e9ea"
+    },
+    {
+        "name": "icon-vesoft-tablet-dashboard",
+        "className": "icon-vesoft-tablet-dashboard",
+        "unicode": "e9eb"
+    },
+    {
+        "name": "icon-vesoft-white-balance-sunny",
+        "className": "icon-vesoft-white-balance-sunny",
+        "unicode": "e9ec"
+    },
+    {
+        "name": "icon-vesoft-dots-hexagon",
+        "className": "icon-vesoft-dots-hexagon",
+        "unicode": "e9ed"
+    },
+    {
+        "name": "icon-vesoft-edge-type",
+        "className": "icon-vesoft-edge-type",
+        "unicode": "e9ee"
+    },
+    {
+        "name": "icon-vesoft-space-dashboard-filled",
+        "className": "icon-vesoft-space-dashboard-filled",
+        "unicode": "e9ef"
+    },
+    {
+        "name": "icon-vesoft-sort-descending",
+        "className": "icon-vesoft-sort-descending",
+        "unicode": "e9f0"
+    },
+    {
+        "name": "icon-vesoft-sort-ascending",
+        "className": "icon-vesoft-sort-ascending",
+        "unicode": "e9f1"
     }
 ]

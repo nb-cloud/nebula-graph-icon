@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1690253825994') format('woff2'),
-        url('IconFont.woff?t=1690253825994') format('woff'),
-        url('IconFont.ttf?t=1690253825994') format('truetype');
+    src: url('IconFont.woff2?t=1700127545758') format('woff2'),
+        url('IconFont.woff?t=1700127545758') format('woff'),
+        url('IconFont.ttf?t=1700127545758') format('truetype');
 }
 
 .iconfont {
@@ -242,6 +242,19 @@
 .icon-icon-studio-btn-consoleGTP:before { content: "\e9e2"; }
 .icon-icon-studio-btn-consoleTip:before { content: "\e9e3"; }
 .icon-icon-robot-excited-outline:before { content: "\e9e4"; }
+.icon-icon-vesoft-explorer-data:before { content: "\e9e5"; }
+.icon-icon-vesoft-sitemap-outline:before { content: "\e9e6"; }
+.icon-icon-vesoft-stethoscope:before { content: "\e9e7"; }
+.icon-icon-vesoft-table:before { content: "\e9e8"; }
+.icon-icon-vesoft-explorer-data-outline:before { content: "\e9e9"; }
+.icon-icon-vesoft-sitemap:before { content: "\e9ea"; }
+.icon-icon-vesoft-tablet-dashboard:before { content: "\e9eb"; }
+.icon-icon-vesoft-white-balance-sunny:before { content: "\e9ec"; }
+.icon-icon-vesoft-dots-hexagon:before { content: "\e9ed"; }
+.icon-icon-vesoft-edge-type:before { content: "\e9ee"; }
+.icon-icon-vesoft-space-dashboard-filled:before { content: "\e9ef"; }
+.icon-icon-vesoft-sort-descending:before { content: "\e9f0"; }
+.icon-icon-vesoft-sort-ascending:before { content: "\e9f1"; }
 
 
 /**
