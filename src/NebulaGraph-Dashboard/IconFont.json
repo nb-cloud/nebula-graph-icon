@@ -663,5 +663,20 @@
         "name": "iconnav-databaseMember",
         "className": "iconnav-databaseMember",
         "unicode": "e984"
+    },
+    {
+        "name": "iconvesoft-add-filled",
+        "className": "iconvesoft-add-filled",
+        "unicode": "e985"
+    },
+    {
+        "name": "iconvesoft-tray-arrow-down",
+        "className": "iconvesoft-tray-arrow-down",
+        "unicode": "e986"
+    },
+    {
+        "name": "iconvesoft-tray-arrow-up",
+        "className": "iconvesoft-tray-arrow-up",
+        "unicode": "e987"
     }
 ]
