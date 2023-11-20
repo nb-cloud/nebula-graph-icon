@@ -6,6 +6,8 @@ import t from '@babel/types';
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
+const svgScript = fs.readFileSync(path.resolve(__dirname, 'svg-script.tpl'), 'utf-8');
+
 // folder names for svg icons
 const targetNames = process.argv[2]
   ? process.argv[2].split(',')
@@ -84,8 +86,10 @@ targetNames.forEach((targetName) => {
   const libDir = path.resolve(__dirname, '../lib', targetName);
   !fs.existsSync(libDir) && fs.mkdirSync(libDir, { recursive: true });
   fs.writeFileSync(path.resolve(libDir, 'svg-tpl.cjs'), `module.exports=\`${output}\``, { encoding: 'utf-8' });
+  fs.writeFileSync(path.resolve(libDir, 'icon.cjs'), `const svgElement = require('./svg-tpl.cjs');\n${svgScript}`, { encoding: 'utf-8' });
 
   const esDir = path.resolve(__dirname, '../es', targetName);
   !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
   fs.writeFileSync(path.resolve(esDir, 'svg-tpl.mjs'), `export default \`${output}\``, { encoding: 'utf-8' });
+  fs.writeFileSync(path.resolve(esDir, 'icon.mjs'), `import svgElement from './svg-tpl.mjs';\n${svgScript}`, { encoding: 'utf-8' });
 });
