@@ -11,29 +11,45 @@ import SVGElement from '@vesoft-inc/icons/lib/NebulaGraph-Explorer/svg-tpl.cjs';
 // inject `SVGElement` string into your html
 ```
 
+```js
+// inject `SVGElement` into your html automatically
+import '@vesoft-inc/icons/lib/NebulaGraph-Explorer/icon.cjs';
+```
+
 # Build
 ```bash
 npm install
 npm run build
 ```
 
-After build, the `dist` directory will be generated, and the directory structure is as follows:
+After the build process, the `lib` and `es` directories will be generated, and the directory structure will be as follows:
 
 ```
-dist
+es
 ├── NebulaGraph-Cloud
-│   └── svg.tpl
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
 ├── NebulaGraph-Dashboard
-│   └── svg.tpl
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
 ├── NebulaGraph-Explorer
-│   └── svg.tpl
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
 ├── NebulaGraph-Interface-Guidelines
-│   └── svg.tpl
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
+├── NebulaGraph-Interface-Guidelines-Vesoft
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
 ├── NebulaGraph-Studio
-│   └── svg.tpl
+│  ├── icon.mjs
+│  └── svg-tpl.mjs
 └── NebulaGraph-Website
-    └── svg.tpl
+    ├── icon.mjs
+    └── svg-tpl.mjs
 ```
+
+`lib` directory is the same as `es` directory, except that the file suffix is `cjs`.
 
 # Publish
 ```bash
