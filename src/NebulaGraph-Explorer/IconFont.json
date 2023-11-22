@@ -1208,5 +1208,35 @@
         "name": "icon-vesoft-sort-ascending",
         "className": "icon-vesoft-sort-ascending",
         "unicode": "e9f1"
+    },
+    {
+        "name": "icon-vesoft-arrow-collapse-all",
+        "className": "icon-vesoft-arrow-collapse-all",
+        "unicode": "e9f2"
+    },
+    {
+        "name": "icon-vesoft-vertex-add",
+        "className": "icon-vesoft-vertex-add",
+        "unicode": "e9f3"
+    },
+    {
+        "name": "icon-vesoft-edge-add",
+        "className": "icon-vesoft-edge-add",
+        "unicode": "e9f4"
+    },
+    {
+        "name": "icon-vesoft-palette-filled",
+        "className": "icon-vesoft-palette-filled",
+        "unicode": "e9f5"
+    },
+    {
+        "name": "icon-vesoft-palette-outlined",
+        "className": "icon-vesoft-palette-outlined",
+        "unicode": "e9f6"
+    },
+    {
+        "name": "icon-vesoft-format-color-fill",
+        "className": "icon-vesoft-format-color-fill",
+        "unicode": "e9f7"
     }
 ]
