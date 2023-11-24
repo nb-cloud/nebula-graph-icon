@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1700646199173') format('woff2'),
-        url('IconFont.woff?t=1700646199173') format('woff'),
-        url('IconFont.ttf?t=1700646199173') format('truetype');
+    src: url('IconFont.woff2?t=1700812093798') format('woff2'),
+        url('IconFont.woff?t=1700812093798') format('woff'),
+        url('IconFont.ttf?t=1700812093798') format('truetype');
 }
 
 .iconfont {
@@ -261,6 +261,23 @@
 .icon-icon-vesoft-palette-filled:before { content: "\e9f5"; }
 .icon-icon-vesoft-palette-outlined:before { content: "\e9f6"; }
 .icon-icon-vesoft-format-color-fill:before { content: "\e9f7"; }
+.icon-icon-vesoft-tag:before { content: "\e9f8"; }
+.icon-icon-vesoft-tag-outline:before { content: "\e9f9"; }
+.icon-icon-vesoft-tag-multiple:before { content: "\e9fa"; }
+.icon-icon-vesoft-tag-multiple-outline:before { content: "\e9fb"; }
+.icon-icon-vesoft-list-box-outline:before { content: "\e9fc"; }
+.icon-icon-vesoft-list-box:before { content: "\e9fd"; }
+.icon-icon-vesoft-frame-select:before { content: "\e9fe"; }
+.icon-icon-vesoft-single-select:before { content: "\e9ff"; }
+.icon-icon-vesoft-graph-expand:before { content: "\ea00"; }
+.icon-icon-vesoft-graph-common-neighbor:before { content: "\ea01"; }
+.icon-icon-vesoft-graph-find-path:before { content: "\ea02"; }
+.icon-icon-vesoft-graph-calculation:before { content: "\ea03"; }
+.icon-icon-vesoft-graph-property-calculation:before { content: "\ea04"; }
+.icon-icon-vesoft-graph-timebar:before { content: "\ea05"; }
+.icon-icon-vesoft-numeric-1-circle:before { content: "\ea06"; }
+.icon-icon-vesoft-numeric-2-circle:before { content: "\ea07"; }
+.icon-icon-vesoft-book-open-page-variant:before { content: "\ea08"; }
 
 
 /**

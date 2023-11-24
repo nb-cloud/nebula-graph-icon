@@ -1238,5 +1238,90 @@
         "name": "icon-vesoft-format-color-fill",
         "className": "icon-vesoft-format-color-fill",
         "unicode": "e9f7"
+    },
+    {
+        "name": "icon-vesoft-tag",
+        "className": "icon-vesoft-tag",
+        "unicode": "e9f8"
+    },
+    {
+        "name": "icon-vesoft-tag-outline",
+        "className": "icon-vesoft-tag-outline",
+        "unicode": "e9f9"
+    },
+    {
+        "name": "icon-vesoft-tag-multiple",
+        "className": "icon-vesoft-tag-multiple",
+        "unicode": "e9fa"
+    },
+    {
+        "name": "icon-vesoft-tag-multiple-outline",
+        "className": "icon-vesoft-tag-multiple-outline",
+        "unicode": "e9fb"
+    },
+    {
+        "name": "icon-vesoft-list-box-outline",
+        "className": "icon-vesoft-list-box-outline",
+        "unicode": "e9fc"
+    },
+    {
+        "name": "icon-vesoft-list-box",
+        "className": "icon-vesoft-list-box",
+        "unicode": "e9fd"
+    },
+    {
+        "name": "icon-vesoft-frame-select",
+        "className": "icon-vesoft-frame-select",
+        "unicode": "e9fe"
+    },
+    {
+        "name": "icon-vesoft-single-select",
+        "className": "icon-vesoft-single-select",
+        "unicode": "e9ff"
+    },
+    {
+        "name": "icon-vesoft-graph-expand",
+        "className": "icon-vesoft-graph-expand",
+        "unicode": "ea00"
+    },
+    {
+        "name": "icon-vesoft-graph-common-neighbor",
+        "className": "icon-vesoft-graph-common-neighbor",
+        "unicode": "ea01"
+    },
+    {
+        "name": "icon-vesoft-graph-find-path",
+        "className": "icon-vesoft-graph-find-path",
+        "unicode": "ea02"
+    },
+    {
+        "name": "icon-vesoft-graph-calculation",
+        "className": "icon-vesoft-graph-calculation",
+        "unicode": "ea03"
+    },
+    {
+        "name": "icon-vesoft-graph-property-calculation",
+        "className": "icon-vesoft-graph-property-calculation",
+        "unicode": "ea04"
+    },
+    {
+        "name": "icon-vesoft-graph-timebar",
+        "className": "icon-vesoft-graph-timebar",
+        "unicode": "ea05"
+    },
+    {
+        "name": "icon-vesoft-numeric-1-circle",
+        "className": "icon-vesoft-numeric-1-circle",
+        "unicode": "ea06"
+    },
+    {
+        "name": "icon-vesoft-numeric-2-circle",
+        "className": "icon-vesoft-numeric-2-circle",
+        "unicode": "ea07"
+    },
+    {
+        "name": "icon-vesoft-book-open-page-variant",
+        "className": "icon-vesoft-book-open-page-variant",
+        "unicode": "ea08"
     }
 ]
