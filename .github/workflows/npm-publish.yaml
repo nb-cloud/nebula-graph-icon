@@ -26,11 +26,13 @@ jobs:
             cd ./source/nebula-graph-icon
             npm install
             npm publish
+            npx -y cnpm sync @vesoft-inc/icons
           else
             echo "Version changed, publishing to npm with beta tag..."
             cd ./source/nebula-graph-icon
             npm install
             npm publish --tag beta
+            npx -y cnpm sync @vesoft-inc/icons
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
