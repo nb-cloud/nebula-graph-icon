@@ -2943,6 +2943,20 @@
 
 
         </symbol>
+        <symbol id="icon-vesoft-check-circle-filled" viewBox="0 0 24 24">
+            
+
+<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"></path>
+
+
+        </symbol>
+        <symbol id="icon-vesoft-cancel-filled" viewBox="0 0 24 24">
+            
+
+<path d="M12 2C6.47 2 2 6.47 2 12C2 17.53 6.47 22 12 22C17.53 22 22 17.53 22 12C22 6.47 17.53 2 12 2ZM17 15.59L15.59 17L12 13.41L8.41 17L7 15.59L10.59 12L7 8.41L8.41 7L12 10.59L15.59 7L17 8.41L13.41 12L17 15.59Z"></path>
+
+
+        </symbol>
             </svg> 
         `
         document.body.appendChild(root)

@@ -1323,5 +1323,15 @@
         "name": "icon-vesoft-book-open-page-variant",
         "className": "icon-vesoft-book-open-page-variant",
         "unicode": "ea08"
+    },
+    {
+        "name": "icon-vesoft-check-circle-filled",
+        "className": "icon-vesoft-check-circle-filled",
+        "unicode": "ea09"
+    },
+    {
+        "name": "icon-vesoft-cancel-filled",
+        "className": "icon-vesoft-cancel-filled",
+        "unicode": "ea0a"
     }
 ]
