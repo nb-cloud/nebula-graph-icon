@@ -678,5 +678,115 @@
         "name": "iconvesoft-tray-arrow-up",
         "className": "iconvesoft-tray-arrow-up",
         "unicode": "e987"
+    },
+    {
+        "name": "iconvesoft-numeric-1-circle",
+        "className": "iconvesoft-numeric-1-circle",
+        "unicode": "e988"
+    },
+    {
+        "name": "iconvesoft-numeric-2-circle",
+        "className": "iconvesoft-numeric-2-circle",
+        "unicode": "e989"
+    },
+    {
+        "name": "iconvesoft-numeric-3-circle",
+        "className": "iconvesoft-numeric-3-circle",
+        "unicode": "e98a"
+    },
+    {
+        "name": "iconvesoft-numeric-4-circle",
+        "className": "iconvesoft-numeric-4-circle",
+        "unicode": "e98b"
+    },
+    {
+        "name": "iconvesoft-numeric-5-circle",
+        "className": "iconvesoft-numeric-5-circle",
+        "unicode": "e98c"
+    },
+    {
+        "name": "iconvesoft-check-circle-filled",
+        "className": "iconvesoft-check-circle-filled",
+        "unicode": "e98d"
+    },
+    {
+        "name": "iconvesoft-check-circle-outlined",
+        "className": "iconvesoft-check-circle-outlined",
+        "unicode": "e98e"
+    },
+    {
+        "name": "iconvesoft-radio-button-unchecked-filled",
+        "className": "iconvesoft-radio-button-unchecked-filled",
+        "unicode": "e98f"
+    },
+    {
+        "name": "iconvesoft-radio-button-checked-filled",
+        "className": "iconvesoft-radio-button-checked-filled",
+        "unicode": "e990"
+    },
+    {
+        "name": "iconvesoft-cancel-outlined",
+        "className": "iconvesoft-cancel-outlined",
+        "unicode": "e991"
+    },
+    {
+        "name": "iconvesoft-cancel-filled",
+        "className": "iconvesoft-cancel-filled",
+        "unicode": "e992"
+    },
+    {
+        "name": "iconvesoft-refresh-circle",
+        "className": "iconvesoft-refresh-circle",
+        "unicode": "e993"
+    },
+    {
+        "name": "iconvesoft-check-filled",
+        "className": "iconvesoft-check-filled",
+        "unicode": "e994"
+    },
+    {
+        "name": "iconvesoft-close-filled",
+        "className": "iconvesoft-close-filled",
+        "unicode": "e995"
+    },
+    {
+        "name": "iconvesoft-warning-filled",
+        "className": "iconvesoft-warning-filled",
+        "unicode": "e996"
+    },
+    {
+        "name": "iconvesoft-cached-filled",
+        "className": "iconvesoft-cached-filled",
+        "unicode": "e997"
+    },
+    {
+        "name": "iconvesoft-connection",
+        "className": "iconvesoft-connection",
+        "unicode": "e998"
+    },
+    {
+        "name": "iconvesoft-bell",
+        "className": "iconvesoft-bell",
+        "unicode": "e999"
+    },
+    {
+        "name": "iconvesoft-delete-outline",
+        "className": "iconvesoft-delete-outline",
+        "unicode": "e99a"
+    },
+    {
+        "name": "iconvesoft-delete",
+        "className": "iconvesoft-delete",
+        "unicode": "e99b"
+    },
+    {
+        "name": "iconvesoft-arrow-back-filled",
+        "className": "iconvesoft-arrow-back-filled",
+        "unicode": "e99c"
+    },
+    {
+        "name": "iconvesoft-arrow-forward-filled",
+        "className": "iconvesoft-arrow-forward-filled",
+        "unicode": "e99d"
     }
 ]

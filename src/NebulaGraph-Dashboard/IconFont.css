@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1700189875937') format('woff2'),
-        url('IconFont.woff?t=1700189875937') format('woff'),
-        url('IconFont.ttf?t=1700189875937') format('truetype');
+    src: url('IconFont.woff2?t=1701744631453') format('woff2'),
+        url('IconFont.woff?t=1701744631453') format('woff'),
+        url('IconFont.ttf?t=1701744631453') format('truetype');
 }
 
 .iconfont {
@@ -149,6 +149,28 @@
 .icon-iconvesoft-add-filled:before { content: "\e985"; }
 .icon-iconvesoft-tray-arrow-down:before { content: "\e986"; }
 .icon-iconvesoft-tray-arrow-up:before { content: "\e987"; }
+.icon-iconvesoft-numeric-1-circle:before { content: "\e988"; }
+.icon-iconvesoft-numeric-2-circle:before { content: "\e989"; }
+.icon-iconvesoft-numeric-3-circle:before { content: "\e98a"; }
+.icon-iconvesoft-numeric-4-circle:before { content: "\e98b"; }
+.icon-iconvesoft-numeric-5-circle:before { content: "\e98c"; }
+.icon-iconvesoft-check-circle-filled:before { content: "\e98d"; }
+.icon-iconvesoft-check-circle-outlined:before { content: "\e98e"; }
+.icon-iconvesoft-radio-button-unchecked-filled:before { content: "\e98f"; }
+.icon-iconvesoft-radio-button-checked-filled:before { content: "\e990"; }
+.icon-iconvesoft-cancel-outlined:before { content: "\e991"; }
+.icon-iconvesoft-cancel-filled:before { content: "\e992"; }
+.icon-iconvesoft-refresh-circle:before { content: "\e993"; }
+.icon-iconvesoft-check-filled:before { content: "\e994"; }
+.icon-iconvesoft-close-filled:before { content: "\e995"; }
+.icon-iconvesoft-warning-filled:before { content: "\e996"; }
+.icon-iconvesoft-cached-filled:before { content: "\e997"; }
+.icon-iconvesoft-connection:before { content: "\e998"; }
+.icon-iconvesoft-bell:before { content: "\e999"; }
+.icon-iconvesoft-delete-outline:before { content: "\e99a"; }
+.icon-iconvesoft-delete:before { content: "\e99b"; }
+.icon-iconvesoft-arrow-back-filled:before { content: "\e99c"; }
+.icon-iconvesoft-arrow-forward-filled:before { content: "\e99d"; }
 
 
 /**
