@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1699926699174') format('woff2'),
-        url('IconFont.woff?t=1699926699174') format('woff'),
-        url('IconFont.ttf?t=1699926699174') format('truetype');
+    src: url('IconFont.woff2?t=1701769136919') format('woff2'),
+        url('IconFont.woff?t=1701769136919') format('woff'),
+        url('IconFont.ttf?t=1701769136919') format('truetype');
 }
 
 .iconfont {
@@ -19,9 +19,9 @@
 .icon-vesoft-expand-more-filled:before { content: "\e903"; }
 .icon-vesoft-expand-less-filled:before { content: "\e904"; }
 .icon-vesoft-chevron-left-filled:before { content: "\e905"; }
-.icon-vesoft-arrow-downward-filled:before { content: "\e906"; }
-.icon-vesoft-arrow-dropdown-filled:before { content: "\e907"; }
-.icon-vesoft-chevron-right-filled:before { content: "\e908"; }
+.icon-vesoft-chevron-right-filled:before { content: "\e906"; }
+.icon-vesoft-arrow-downward-filled:before { content: "\e907"; }
+.icon-vesoft-arrow-dropdown-filled:before { content: "\e908"; }
 .icon-vesoft-more-horiz-filled:before { content: "\e909"; }
 .icon-vesoft-menu-filled:before { content: "\e90a"; }
 .icon-vesoft-arrow-upward-filled:before { content: "\e90b"; }
@@ -32,15 +32,15 @@
 .icon-vesoft-notifications-filled:before { content: "\e910"; }
 .icon-vesoft-people-filled:before { content: "\e911"; }
 .icon-vesoft-checkbox-outline-blank-filled:before { content: "\e912"; }
-.icon-vesoft-star-outline-filled:before { content: "\e913"; }
-.icon-vesoft-indeterminate-checkbox-outlined:before { content: "\e914"; }
+.icon-vesoft-indeterminate-checkbox-outlined:before { content: "\e913"; }
+.icon-vesoft-indeterminate-checkbox-filled:before { content: "\e914"; }
 .icon-vesoft-toggle-off-outlined:before { content: "\e915"; }
-.icon-vesoft-indeterminate-checkbox-filled:before { content: "\e916"; }
-.icon-vesoft-query-builder-filled:before { content: "\e917"; }
-.icon-vesoft-shopping-cart-outlined:before { content: "\e918"; }
-.icon-vesoft-add-filled:before { content: "\e919"; }
-.icon-vesoft-remove-redeye-filled:before { content: "\e91a"; }
-.icon-vesoft-favorite-filled:before { content: "\e91b"; }
+.icon-vesoft-query-builder-filled:before { content: "\e916"; }
+.icon-vesoft-shopping-cart-outlined:before { content: "\e917"; }
+.icon-vesoft-add-filled:before { content: "\e918"; }
+.icon-vesoft-remove-redeye-filled:before { content: "\e919"; }
+.icon-vesoft-favorite-filled:before { content: "\e91a"; }
+.icon-vesoft-receipt-outlined:before { content: "\e91b"; }
 .icon-vesoft-receipt-filled:before { content: "\e91c"; }
 .icon-vesoft-check-circle-filled:before { content: "\e91d"; }
 .icon-vesoft-check-circle-outlined:before { content: "\e91e"; }
@@ -49,48 +49,48 @@
 .icon-vesoft-info-outlined:before { content: "\e921"; }
 .icon-vesoft-logout-filled:before { content: "\e922"; }
 .icon-vesoft-query-builder-outlined:before { content: "\e923"; }
-.icon-vesoft-receipt-outlined:before { content: "\e924"; }
-.icon-vesoft-account-circle-outlined:before { content: "\e925"; }
-.icon-vesoft-search-filled:before { content: "\e926"; }
-.icon-vesoft-restore-filled:before { content: "\e927"; }
-.icon-vesoft-settings-outlined:before { content: "\e928"; }
-.icon-vesoft-settings-filled:before { content: "\e929"; }
-.icon-vesoft-space-dashboard-outlined:before { content: "\e92a"; }
-.icon-vesoft-space-dashboard-filled:before { content: "\e92b"; }
-.icon-vesoft-shopping-cart-filled:before { content: "\e92c"; }
-.icon-vesoft-content-cut-filled:before { content: "\e92d"; }
-.icon-vesoft-account-circle-filled:before { content: "\e92e"; }
-.icon-vesoft-error-filled:before { content: "\e92f"; }
-.icon-vesoft-warning-outlined:before { content: "\e930"; }
-.icon-vesoft-error-outline:before { content: "\e931"; }
-.icon-vesoft-warning-filled:before { content: "\e932"; }
-.icon-vesoft-content-cut-outlined:before { content: "\e933"; }
-.icon-vesoft-cloud-outlined:before { content: "\e934"; }
-.icon-vesoft-content-paste-filled:before { content: "\e935"; }
-.icon-vesoft-content-copy-filled:before { content: "\e936"; }
-.icon-vesoft-mail-outlined:before { content: "\e937"; }
-.icon-vesoft-mail-filled:before { content: "\e938"; }
-.icon-vesoft-location-on-outlined:before { content: "\e939"; }
-.icon-vesoft-location-on-filled:before { content: "\e93a"; }
-.icon-vesoft-format-align-left-filled:before { content: "\e93b"; }
-.icon-vesoft-toggle-on-outlined:before { content: "\e93c"; }
-.icon-vesoft-cloud-filled:before { content: "\e93d"; }
-.icon-vesoft-folder-outlined:before { content: "\e93e"; }
-.icon-vesoft-folder-filled:before { content: "\e93f"; }
-.icon-vesoft-photo-outlined:before { content: "\e940"; }
-.icon-vesoft-photo-filled:before { content: "\e941"; }
-.icon-vesoft-edit-outlined:before { content: "\e942"; }
-.icon-vesoft-edit-filled:before { content: "\e943"; }
-.icon-vesoft-remove-redeye-outlined:before { content: "\e944"; }
-.icon-vesoft-toggle-off-filled:before { content: "\e945"; }
-.icon-vesoft-toggle-on-filled:before { content: "\e946"; }
+.icon-vesoft-account-circle-outlined:before { content: "\e924"; }
+.icon-vesoft-search-filled:before { content: "\e925"; }
+.icon-vesoft-restore-filled:before { content: "\e926"; }
+.icon-vesoft-settings-outlined:before { content: "\e927"; }
+.icon-vesoft-settings-filled:before { content: "\e928"; }
+.icon-vesoft-space-dashboard-outlined:before { content: "\e929"; }
+.icon-vesoft-space-dashboard-filled:before { content: "\e92a"; }
+.icon-vesoft-shopping-cart-filled:before { content: "\e92b"; }
+.icon-vesoft-content-cut-filled:before { content: "\e92c"; }
+.icon-vesoft-account-circle-filled:before { content: "\e92d"; }
+.icon-vesoft-error-filled:before { content: "\e92e"; }
+.icon-vesoft-warning-outlined:before { content: "\e92f"; }
+.icon-vesoft-error-outline:before { content: "\e930"; }
+.icon-vesoft-warning-filled:before { content: "\e931"; }
+.icon-vesoft-content-cut-outlined:before { content: "\e932"; }
+.icon-vesoft-cloud-outlined:before { content: "\e933"; }
+.icon-vesoft-content-paste-filled:before { content: "\e934"; }
+.icon-vesoft-content-copy-filled:before { content: "\e935"; }
+.icon-vesoft-mail-outlined:before { content: "\e936"; }
+.icon-vesoft-mail-filled:before { content: "\e937"; }
+.icon-vesoft-location-on-outlined:before { content: "\e938"; }
+.icon-vesoft-location-on-filled:before { content: "\e939"; }
+.icon-vesoft-format-align-left-filled:before { content: "\e93a"; }
+.icon-vesoft-toggle-on-outlined:before { content: "\e93b"; }
+.icon-vesoft-cloud-filled:before { content: "\e93c"; }
+.icon-vesoft-folder-outlined:before { content: "\e93d"; }
+.icon-vesoft-folder-filled:before { content: "\e93e"; }
+.icon-vesoft-photo-outlined:before { content: "\e93f"; }
+.icon-vesoft-photo-filled:before { content: "\e940"; }
+.icon-vesoft-edit-outlined:before { content: "\e941"; }
+.icon-vesoft-edit-filled:before { content: "\e942"; }
+.icon-vesoft-remove-redeye-outlined:before { content: "\e943"; }
+.icon-vesoft-toggle-off-filled:before { content: "\e944"; }
+.icon-vesoft-toggle-on-filled:before { content: "\e945"; }
+.icon-vesoft-radio-button-unchecked-filled:before { content: "\e946"; }
 .icon-vesoft-radio-button-checked-filled:before { content: "\e947"; }
-.icon-vesoft-star-half-filled:before { content: "\e948"; }
-.icon-vesoft-star-outlined:before { content: "\e949"; }
-.icon-vesoft-star-filled:before { content: "\e94a"; }
-.icon-vesoft-checkbox-outlined:before { content: "\e94b"; }
-.icon-vesoft-checkbox-filled:before { content: "\e94c"; }
-.icon-vesoft-radio-button-unchecked-filled:before { content: "\e94d"; }
+.icon-vesoft-star-outline-filled:before { content: "\e948"; }
+.icon-vesoft-star-half-filled:before { content: "\e949"; }
+.icon-vesoft-star-outlined:before { content: "\e94a"; }
+.icon-vesoft-star-filled:before { content: "\e94b"; }
+.icon-vesoft-checkbox-outlined:before { content: "\e94c"; }
+.icon-vesoft-checkbox-filled:before { content: "\e94d"; }
 .icon-vesoft-cancel-outlined:before { content: "\e94e"; }
 .icon-vesoft-cancel-filled:before { content: "\e94f"; }
 .icon-vesoft-license:before { content: "\e950"; }
@@ -233,6 +233,55 @@
 .icon-vesoft-swap-vertical:before { content: "\e9d9"; }
 .icon-vesoft-arrow-expand-all:before { content: "\e9da"; }
 .icon-vesoft-arrow-collapse-all:before { content: "\e9db"; }
+.icon-vesoft-vertex-add:before { content: "\e9dc"; }
+.icon-vesoft-edge-add:before { content: "\e9dd"; }
+.icon-vesoft-palette-filled:before { content: "\e9de"; }
+.icon-vesoft-format-color-fill:before { content: "\e9df"; }
+.icon-vesoft-palette-outlined:before { content: "\e9e0"; }
+.icon-vesoft-tag:before { content: "\e9e1"; }
+.icon-vesoft-tag-multiple:before { content: "\e9e2"; }
+.icon-vesoft-tag-outline:before { content: "\e9e3"; }
+.icon-vesoft-tag-multiple-outline:before { content: "\e9e4"; }
+.icon-vesoft-list-box-outline:before { content: "\e9e5"; }
+.icon-vesoft-list-box:before { content: "\e9e6"; }
+.icon-vesoft-frame-select:before { content: "\e9e7"; }
+.icon-vesoft-single-select:before { content: "\e9e8"; }
+.icon-vesoft-graph-expand:before { content: "\e9e9"; }
+.icon-vesoft-graph-common-neighbor:before { content: "\e9ea"; }
+.icon-vesoft-graph-find-path:before { content: "\e9eb"; }
+.icon-vesoft-graph-calculation:before { content: "\e9ec"; }
+.icon-vesoft-graph-property-calculation:before { content: "\e9ed"; }
+.icon-vesoft-graph-timebar:before { content: "\e9ee"; }
+.icon-vesoft-console:before { content: "\e9ef"; }
+.icon-vesoft-console-line:before { content: "\e9f0"; }
+.icon-vesoft-link:before { content: "\e9f1"; }
+.icon-vesoft-link-off:before { content: "\e9f2"; }
+.icon-vesoft-link-variant:before { content: "\e9f3"; }
+.icon-vesoft-link-variant-off:before { content: "\e9f4"; }
+.icon-vesoft-application-edit-outline:before { content: "\e9f5"; }
+.icon-vesoft-application-edit:before { content: "\e9f6"; }
+.icon-vesoft-circle-edit-outline:before { content: "\e9f7"; }
+.icon-vesoft-workflow:before { content: "\e9f8"; }
+.icon-vesoft-database-search:before { content: "\e9f9"; }
+.icon-vesoft-visual-query:before { content: "\e9fa"; }
+.icon-vesoft-database-search-outline:before { content: "\e9fb"; }
+.icon-vesoft-database-arrow-down:before { content: "\e9fc"; }
+.icon-vesoft-database-arrow-down-outline:before { content: "\e9fd"; }
+.icon-vesoft-database-arrow-up:before { content: "\e9fe"; }
+.icon-vesoft-database-arrow-up-outline:before { content: "\e9ff"; }
+.icon-vesoft-phone:before { content: "\ea00"; }
+.icon-vesoft-cellphone:before { content: "\ea01"; }
+.icon-vesoft-message-reply-text-outline:before { content: "\ea02"; }
+.icon-vesoft-message-reply-text:before { content: "\ea03"; }
+.icon-vesoft-lightbulb-outline:before { content: "\ea04"; }
+.icon-vesoft-lightbulb:before { content: "\ea05"; }
+.icon-vesoft-lightbulb-on-outline:before { content: "\ea06"; }
+.icon-vesoft-lightbulb-on:before { content: "\ea07"; }
+.icon-vesoft-compass-outline:before { content: "\ea08"; }
+.icon-vesoft-compass:before { content: "\ea09"; }
+.icon-vesoft-keyboard:before { content: "\ea0a"; }
+.icon-vesoft-keyboard-outline:before { content: "\ea0b"; }
+.icon-vesoft-refresh-circle:before { content: "\ea0c"; }
 
 
 /**
