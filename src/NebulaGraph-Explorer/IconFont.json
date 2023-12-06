@@ -1333,5 +1333,10 @@
         "name": "icon-vesoft-cancel-filled",
         "className": "icon-vesoft-cancel-filled",
         "unicode": "ea0a"
+    },
+    {
+        "name": "icon-vesoft-arrow-expand-all",
+        "className": "icon-vesoft-arrow-expand-all",
+        "unicode": "ea0b"
     }
 ]
