@@ -1338,5 +1338,25 @@
         "name": "icon-vesoft-arrow-expand-all",
         "className": "icon-vesoft-arrow-expand-all",
         "unicode": "ea0b"
+    },
+    {
+        "name": "icon-vesoft-edit-outlined",
+        "className": "icon-vesoft-edit-outlined",
+        "unicode": "ea0c"
+    },
+    {
+        "name": "icon-vesoft-text-box-search-outline",
+        "className": "icon-vesoft-text-box-search-outline",
+        "unicode": "ea0d"
+    },
+    {
+        "name": "icon-vesoft-delete-outline",
+        "className": "icon-vesoft-delete-outline",
+        "unicode": "ea0e"
+    },
+    {
+        "name": "icon-vesoft-note-edit-outline",
+        "className": "icon-vesoft-note-edit-outline",
+        "unicode": "ea0f"
     }
 ]

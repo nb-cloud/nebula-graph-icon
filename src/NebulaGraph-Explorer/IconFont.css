@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1701832543514') format('woff2'),
-        url('IconFont.woff?t=1701832543514') format('woff'),
-        url('IconFont.ttf?t=1701832543514') format('truetype');
+    src: url('IconFont.woff2?t=1702275948118') format('woff2'),
+        url('IconFont.woff?t=1702275948118') format('woff'),
+        url('IconFont.ttf?t=1702275948118') format('truetype');
 }
 
 .iconfont {
@@ -281,6 +281,10 @@
 .icon-icon-vesoft-check-circle-filled:before { content: "\ea09"; }
 .icon-icon-vesoft-cancel-filled:before { content: "\ea0a"; }
 .icon-icon-vesoft-arrow-expand-all:before { content: "\ea0b"; }
+.icon-icon-vesoft-edit-outlined:before { content: "\ea0c"; }
+.icon-icon-vesoft-text-box-search-outline:before { content: "\ea0d"; }
+.icon-icon-vesoft-delete-outline:before { content: "\ea0e"; }
+.icon-icon-vesoft-note-edit-outline:before { content: "\ea0f"; }
 
 
 /**
