@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1701769136919') format('woff2'),
-        url('IconFont.woff?t=1701769136919') format('woff'),
-        url('IconFont.ttf?t=1701769136919') format('truetype');
+    src: url('IconFont.woff2?t=1703224940692') format('woff2'),
+        url('IconFont.woff?t=1703224940692') format('woff'),
+        url('IconFont.ttf?t=1703224940692') format('truetype');
 }
 
 .iconfont {
@@ -282,6 +282,78 @@
 .icon-vesoft-keyboard:before { content: "\ea0a"; }
 .icon-vesoft-keyboard-outline:before { content: "\ea0b"; }
 .icon-vesoft-refresh-circle:before { content: "\ea0c"; }
+.icon-vesoft-eye-remove:before { content: "\ea0d"; }
+.icon-vesoft-eye-remove-outline:before { content: "\ea0e"; }
+.icon-vesoft-eye-minus:before { content: "\ea0f"; }
+.icon-vesoft-eye-minus-outline:before { content: "\ea10"; }
+.icon-vesoft-eye-plus-outline:before { content: "\ea11"; }
+.icon-vesoft-eye-plus:before { content: "\ea12"; }
+.icon-vesoft-eye-minus-change:before { content: "\ea13"; }
+.icon-vesoft-eye-minus-change-outline:before { content: "\ea14"; }
+.icon-vesoft-arrow-addnum-filled:before { content: "\ea15"; }
+.icon-vesoft-arrow-left-top:before { content: "\ea16"; }
+.icon-vesoft-arrow-left-bottom:before { content: "\ea17"; }
+.icon-vesoft-arrow-right-top:before { content: "\ea18"; }
+.icon-vesoft-arrow-right-bottom:before { content: "\ea19"; }
+.icon-vesoft-arrow-down-left:before { content: "\ea1a"; }
+.icon-vesoft-arrow-up-left:before { content: "\ea1b"; }
+.icon-vesoft-arrow-down-right:before { content: "\ea1c"; }
+.icon-vesoft-arrow-up-right:before { content: "\ea1d"; }
+.icon-vesoft-camera:before { content: "\ea1e"; }
+.icon-vesoft-camera-outline:before { content: "\ea1f"; }
+.icon-vesoft-camera-plus:before { content: "\ea20"; }
+.icon-vesoft-camera-plus-outline:before { content: "\ea21"; }
+.icon-vesoft-bird-view:before { content: "\ea22"; }
+.icon-vesoft-auto-size:before { content: "\ea23"; }
+.icon-vesoft-reset-size:before { content: "\ea24"; }
+.icon-vesoft-edge-aggregate:before { content: "\ea25"; }
+.icon-vesoft-edge-separate:before { content: "\ea26"; }
+.icon-vesoft-isolated-vertex:before { content: "\ea27"; }
+.icon-vesoft-hang-edge:before { content: "\ea28"; }
+.icon-vesoft-circular-detection:before { content: "\ea29"; }
+.icon-vesoft-triangle-detection:before { content: "\ea2a"; }
+.icon-vesoft-nstep-detection:before { content: "\ea2b"; }
+.icon-vesoft-edge-clustering:before { content: "\ea2c"; }
+.icon-vesoft-cancel-edge-clustering:before { content: "\ea2d"; }
+.icon-vesoft-file-csv-outline:before { content: "\ea2e"; }
+.icon-vesoft-file-csv:before { content: "\ea2f"; }
+.icon-vesoft-file-png-outline:before { content: "\ea30"; }
+.icon-vesoft-file-png:before { content: "\ea31"; }
+.icon-vesoft-file-svg-outline:before { content: "\ea32"; }
+.icon-vesoft-file-svg:before { content: "\ea33"; }
+.icon-vesoft-file-json-outline:before { content: "\ea34"; }
+.icon-vesoft-file-json:before { content: "\ea35"; }
+.icon-vesoft-file-xml-outline:before { content: "\ea36"; }
+.icon-vesoft-file-xml:before { content: "\ea37"; }
+.icon-vesoft-file-yaml-outline:before { content: "\ea38"; }
+.icon-vesoft-file-yaml:before { content: "\ea39"; }
+.icon-vesoft-hand-back-right:before { content: "\ea3a"; }
+.icon-vesoft-hand-back-right-outline:before { content: "\ea3b"; }
+.icon-vesoft-nav-subscript:before { content: "\ea3c"; }
+.icon-vesoft-fullscreen:before { content: "\ea3d"; }
+.icon-vesoft-fullscreen-exit:before { content: "\ea3e"; }
+.icon-vesoft-cursor-move:before { content: "\ea3f"; }
+.icon-vesoft-format-indent-decrease:before { content: "\ea40"; }
+.icon-vesoft-format-indent-increase:before { content: "\ea41"; }
+.icon-vesoft-graph-view:before { content: "\ea42"; }
+.icon-vesoft-sphere-view:before { content: "\ea43"; }
+.icon-vesoft-tree-view:before { content: "\ea44"; }
+.icon-vesoft-neural-network-view:before { content: "\ea45"; }
+.icon-vesoft-radial-view:before { content: "\ea46"; }
+.icon-vesoft-grid-view:before { content: "\ea47"; }
+.icon-vesoft-chevron-double-right:before { content: "\ea48"; }
+.icon-vesoft-chevron-double-down:before { content: "\ea49"; }
+.icon-vesoft-chevron-double-up:before { content: "\ea4a"; }
+.icon-vesoft-chevron-double-left:before { content: "\ea4b"; }
+.icon-vesoft-eye-closed:before { content: "\ea4c"; }
+.icon-vesoft-play-circle:before { content: "\ea4d"; }
+.icon-vesoft-pause-circle:before { content: "\ea4e"; }
+.icon-vesoft-play-circle-outline:before { content: "\ea4f"; }
+.icon-vesoft-pause-circle-outline:before { content: "\ea50"; }
+.icon-vesoft-play-box:before { content: "\ea51"; }
+.icon-vesoft-pause-box:before { content: "\ea52"; }
+.icon-vesoft-pause-box-outline:before { content: "\ea53"; }
+.icon-vesoft-play-box-outline:before { content: "\ea54"; }
 
 
 /**
