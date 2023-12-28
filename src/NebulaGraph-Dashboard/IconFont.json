@@ -788,5 +788,35 @@
         "name": "iconvesoft-arrow-forward-filled",
         "className": "iconvesoft-arrow-forward-filled",
         "unicode": "e99d"
+    },
+    {
+        "name": "iconvesoft-menu-filled",
+        "className": "iconvesoft-menu-filled",
+        "unicode": "e99e"
+    },
+    {
+        "name": "iconvesoft-play-circle",
+        "className": "iconvesoft-play-circle",
+        "unicode": "e99f"
+    },
+    {
+        "name": "iconvesoft-play",
+        "className": "iconvesoft-play",
+        "unicode": "e9a0"
+    },
+    {
+        "name": "iconvesoft-chevron-double-down",
+        "className": "iconvesoft-chevron-double-down",
+        "unicode": "e9a1"
+    },
+    {
+        "name": "iconvesoft-chevron-double-up",
+        "className": "iconvesoft-chevron-double-up",
+        "unicode": "e9a2"
+    },
+    {
+        "name": "iconvesoft-error-filled",
+        "className": "iconvesoft-error-filled",
+        "unicode": "e9a3"
     }
 ]

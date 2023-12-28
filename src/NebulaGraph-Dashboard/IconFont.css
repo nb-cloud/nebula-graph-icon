@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1701744631453') format('woff2'),
-        url('IconFont.woff?t=1701744631453') format('woff'),
-        url('IconFont.ttf?t=1701744631453') format('truetype');
+    src: url('IconFont.woff2?t=1703755977145') format('woff2'),
+        url('IconFont.woff?t=1703755977145') format('woff'),
+        url('IconFont.ttf?t=1703755977145') format('truetype');
 }
 
 .iconfont {
@@ -171,6 +171,12 @@
 .icon-iconvesoft-delete:before { content: "\e99b"; }
 .icon-iconvesoft-arrow-back-filled:before { content: "\e99c"; }
 .icon-iconvesoft-arrow-forward-filled:before { content: "\e99d"; }
+.icon-iconvesoft-menu-filled:before { content: "\e99e"; }
+.icon-iconvesoft-play-circle:before { content: "\e99f"; }
+.icon-iconvesoft-play:before { content: "\e9a0"; }
+.icon-iconvesoft-chevron-double-down:before { content: "\e9a1"; }
+.icon-iconvesoft-chevron-double-up:before { content: "\e9a2"; }
+.icon-iconvesoft-error-filled:before { content: "\e9a3"; }
 
 
 /**
