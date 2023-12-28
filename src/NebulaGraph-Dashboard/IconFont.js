@@ -1593,24 +1593,24 @@
 
 
         </symbol>
-        <symbol id="iconvesoft-play" viewBox="0 0 20 20">
+        <symbol id="iconvesoft-play" viewBox="0 0 24 24">
             
 
-<path d="M15.8333 9.99599L6.45831 15.4086L6.45831 4.58333L15.8333 9.99599Z"></path>
+<path d="M19 11.9952L7.75 18.4904L7.75 5.5L19 11.9952Z"></path>
 
 
         </symbol>
-        <symbol id="iconvesoft-chevron-double-down" viewBox="0 0 20 20">
+        <symbol id="iconvesoft-chevron-double-down" viewBox="0 0 24 24">
             
 
-<path d="M13.825 4.65834L15 5.83334L10 10.8333L5 5.83334L6.175 4.65834L10 8.47501L13.825 4.65834ZM13.825 9.65834L15 10.8333L10 15.8333L5 10.8333L6.175 9.65834L10 13.475L13.825 9.65834Z"></path>
+<path d="M16.59 5.59L18 7L12 13L6 7L7.41 5.59L12 10.17L16.59 5.59ZM16.59 11.59L18 13L12 19L6 13L7.41 11.59L12 16.17L16.59 11.59Z"></path>
 
 
         </symbol>
-        <symbol id="iconvesoft-chevron-double-up" viewBox="0 0 20 20">
+        <symbol id="iconvesoft-chevron-double-up" viewBox="0 0 24 24">
             
 
-<path d="M6.175 15.3417L5 14.1667L10 9.16667L15 14.1667L13.825 15.3417L10 11.525L6.175 15.3417ZM6.175 10.3417L5 9.16667L10 4.16667L15 9.16667L13.825 10.3417L10 6.525L6.175 10.3417Z"></path>
+<path d="M7.41 18.41L6 17L12 11L18 17L16.59 18.41L12 13.83L7.41 18.41ZM7.41 12.41L6 11L12 5L18 11L16.59 12.41L12 7.83L7.41 12.41Z"></path>
 
 
         </symbol>
