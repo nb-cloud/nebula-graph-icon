@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1703225326945') format('woff2'),
-        url('IconFont.woff?t=1703225326945') format('woff'),
-        url('IconFont.ttf?t=1703225326945') format('truetype');
+    src: url('IconFont.woff2?t=1705915084247') format('woff2'),
+        url('IconFont.woff?t=1705915084247') format('woff'),
+        url('IconFont.ttf?t=1705915084247') format('truetype');
 }
 
 .iconfont {
@@ -354,6 +354,103 @@
 .icon-vesoft-pause-box:before { content: "\ea52"; }
 .icon-vesoft-pause-box-outline:before { content: "\ea53"; }
 .icon-vesoft-play-box-outline:before { content: "\ea54"; }
+.icon-vesoft-script-text:before { content: "\ea55"; }
+.icon-vesoft-script-text-outline:before { content: "\ea56"; }
+.icon-vesoft-clipboard-text-clock:before { content: "\ea57"; }
+.icon-vesoft-clipboard-text-clock-outline:before { content: "\ea58"; }
+.icon-vesoft-clipboard-text:before { content: "\ea59"; }
+.icon-vesoft-clipboard-text-outline:before { content: "\ea5a"; }
+.icon-vesoft-file-cog:before { content: "\ea5b"; }
+.icon-vesoft-file-cog-outline:before { content: "\ea5c"; }
+.icon-vesoft-file-compare:before { content: "\ea5d"; }
+.icon-vesoft-content-save-outline:before { content: "\ea5e"; }
+.icon-vesoft-content-save-move-outline:before { content: "\ea5f"; }
+.icon-vesoft-content-save:before { content: "\ea60"; }
+.icon-vesoft-content-save-move:before { content: "\ea61"; }
+.icon-vesoft-tree-horizontal-view:before { content: "\ea62"; }
+.icon-vesoft-sitemap-horizontal:before { content: "\ea63"; }
+.icon-vesoft-sitemap-horizontal-outline:before { content: "\ea64"; }
+.icon-vesoft-checkbox-blank-off:before { content: "\ea65"; }
+.icon-vesoft-checkbox-blank-off-outline:before { content: "\ea66"; }
+.icon-vesoft-node-path:before { content: "\ea67"; }
+.icon-vesoft-node-measurement:before { content: "\ea68"; }
+.icon-vesoft-graph-feature:before { content: "\ea69"; }
+.icon-vesoft-community-discovery:before { content: "\ea6a"; }
+.icon-vesoft-node-clustering:before { content: "\ea6b"; }
+.icon-vesoft-graph-query:before { content: "\ea6c"; }
+.icon-vesoft-arrow-top-left-bold-outline:before { content: "\ea6d"; }
+.icon-vesoft-arrow-navigation:before { content: "\ea6e"; }
+.icon-vesoft-select-arrow-up:before { content: "\ea6f"; }
+.icon-vesoft-select-arrow-down:before { content: "\ea70"; }
+.icon-vesoft-select-arrow-right:before { content: "\ea71"; }
+.icon-vesoft-select-arrow-left:before { content: "\ea72"; }
+.icon-vesoft-magnify-plus:before { content: "\ea73"; }
+.icon-vesoft-magnify-minus:before { content: "\ea74"; }
+.icon-vesoft-magnify-plus-outline:before { content: "\ea75"; }
+.icon-vesoft-magnify-minus-outline:before { content: "\ea76"; }
+.icon-vesoft-chart-scatter-plot:before { content: "\ea77"; }
+.icon-vesoft-memory:before { content: "\ea78"; }
+.icon-vesoft-chip:before { content: "\ea79"; }
+.icon-vesoft-chart-areaspline:before { content: "\ea7a"; }
+.icon-vesoft-chart-areaspline-variant:before { content: "\ea7b"; }
+.icon-vesoft-chart-box:before { content: "\ea7c"; }
+.icon-vesoft-chart-box-outline:before { content: "\ea7d"; }
+.icon-vesoft-chart-bubble:before { content: "\ea7e"; }
+.icon-vesoft-chart-line:before { content: "\ea7f"; }
+.icon-vesoft-chart-pie:before { content: "\ea80"; }
+.icon-vesoft-chart-pie-outline:before { content: "\ea81"; }
+.icon-vesoft-chart-bar:before { content: "\ea82"; }
+.icon-vesoft-file-tree:before { content: "\ea83"; }
+.icon-vesoft-file-tree-outline:before { content: "\ea84"; }
+.icon-vesoft-vector-triangle:before { content: "\ea85"; }
+.icon-vesoft-monitor-indicators:before { content: "\ea86"; }
+.icon-vesoft-monitor:before { content: "\ea87"; }
+.icon-vesoft-account-details:before { content: "\ea88"; }
+.icon-vesoft-account-details-outline:before { content: "\ea89"; }
+.icon-vesoft-cogs:before { content: "\ea8a"; }
+.icon-vesoft-database-sync:before { content: "\ea8b"; }
+.icon-vesoft-database-sync-outline:before { content: "\ea8c"; }
+.icon-vesoft-card-text:before { content: "\ea8d"; }
+.icon-vesoft-card-text-outline:before { content: "\ea8e"; }
+.icon-vesoft-hexagon-multiple:before { content: "\ea8f"; }
+.icon-vesoft-hexagon-multiple-outline:before { content: "\ea90"; }
+.icon-vesoft-tune-variant:before { content: "\ea91"; }
+.icon-vesoft-tune-vertical-variant:before { content: "\ea92"; }
+.icon-vesoft-person-management-filled:before { content: "\ea93"; }
+.icon-vesoft-television:before { content: "\ea94"; }
+.icon-vesoft-youtube-tv:before { content: "\ea95"; }
+.icon-vesoft-format-list-checks:before { content: "\ea96"; }
+.icon-vesoft-package-up:before { content: "\ea97"; }
+.icon-vesoft-cluster-member-filled:before { content: "\ea98"; }
+.icon-vesoft-database-member-filled:before { content: "\ea99"; }
+.icon-vesoft-lock:before { content: "\ea9a"; }
+.icon-vesoft-lock-outline:before { content: "\ea9b"; }
+.icon-vesoft-lock-open:before { content: "\ea9c"; }
+.icon-vesoft-lock-open-outline:before { content: "\ea9d"; }
+.icon-vesoft-lock-open-variant:before { content: "\ea9e"; }
+.icon-vesoft-lock-open-variant-outline:before { content: "\ea9f"; }
+.icon-vesoft-wrench:before { content: "\eaa0"; }
+.icon-vesoft-wrench-outline:before { content: "\eaa1"; }
+.icon-vesoft-arrow-bottom-left:before { content: "\eaa2"; }
+.icon-vesoft-arrow-bottom-right:before { content: "\eaa3"; }
+.icon-vesoft-arrow-top-left:before { content: "\eaa4"; }
+.icon-vesoft-arrow-top-right:before { content: "\eaa5"; }
+.icon-vesoft-apps:before { content: "\eaa6"; }
+.icon-vesoft-apps-box:before { content: "\eaa7"; }
+.icon-vesoft-menu-left:before { content: "\eaa8"; }
+.icon-vesoft-menu-up:before { content: "\eaa9"; }
+.icon-vesoft-menu-right:before { content: "\eaaa"; }
+.icon-vesoft-timer-sand:before { content: "\eaab"; }
+.icon-vesoft-timer-sand-complete:before { content: "\eaac"; }
+.icon-vesoft-bell-off:before { content: "\eaad"; }
+.icon-vesoft-bell-off-outline:before { content: "\eaae"; }
+.icon-vesoft-bell-cog:before { content: "\eaaf"; }
+.icon-vesoft-bell-cog-outline:before { content: "\eab0"; }
+.icon-vesoft-bell-badge:before { content: "\eab1"; }
+.icon-vesoft-bell-badge-outline:before { content: "\eab2"; }
+.icon-vesoft-account-edit:before { content: "\eab3"; }
+.icon-vesoft-square-rounded-badge:before { content: "\eab4"; }
+.icon-vesoft-square-rounded-badge-outline:before { content: "\eab5"; }
 
 
 /**

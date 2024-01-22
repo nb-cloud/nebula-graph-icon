@@ -1703,5 +1703,490 @@
         "name": "vesoft-play-box-outline",
         "className": "vesoft-play-box-outline",
         "unicode": "ea54"
+    },
+    {
+        "name": "vesoft-script-text",
+        "className": "vesoft-script-text",
+        "unicode": "ea55"
+    },
+    {
+        "name": "vesoft-script-text-outline",
+        "className": "vesoft-script-text-outline",
+        "unicode": "ea56"
+    },
+    {
+        "name": "vesoft-clipboard-text-clock",
+        "className": "vesoft-clipboard-text-clock",
+        "unicode": "ea57"
+    },
+    {
+        "name": "vesoft-clipboard-text-clock-outline",
+        "className": "vesoft-clipboard-text-clock-outline",
+        "unicode": "ea58"
+    },
+    {
+        "name": "vesoft-clipboard-text",
+        "className": "vesoft-clipboard-text",
+        "unicode": "ea59"
+    },
+    {
+        "name": "vesoft-clipboard-text-outline",
+        "className": "vesoft-clipboard-text-outline",
+        "unicode": "ea5a"
+    },
+    {
+        "name": "vesoft-file-cog",
+        "className": "vesoft-file-cog",
+        "unicode": "ea5b"
+    },
+    {
+        "name": "vesoft-file-cog-outline",
+        "className": "vesoft-file-cog-outline",
+        "unicode": "ea5c"
+    },
+    {
+        "name": "vesoft-file-compare",
+        "className": "vesoft-file-compare",
+        "unicode": "ea5d"
+    },
+    {
+        "name": "vesoft-content-save-outline",
+        "className": "vesoft-content-save-outline",
+        "unicode": "ea5e"
+    },
+    {
+        "name": "vesoft-content-save-move-outline",
+        "className": "vesoft-content-save-move-outline",
+        "unicode": "ea5f"
+    },
+    {
+        "name": "vesoft-content-save",
+        "className": "vesoft-content-save",
+        "unicode": "ea60"
+    },
+    {
+        "name": "vesoft-content-save-move",
+        "className": "vesoft-content-save-move",
+        "unicode": "ea61"
+    },
+    {
+        "name": "vesoft-tree-horizontal-view",
+        "className": "vesoft-tree-horizontal-view",
+        "unicode": "ea62"
+    },
+    {
+        "name": "vesoft-sitemap-horizontal",
+        "className": "vesoft-sitemap-horizontal",
+        "unicode": "ea63"
+    },
+    {
+        "name": "vesoft-sitemap-horizontal-outline",
+        "className": "vesoft-sitemap-horizontal-outline",
+        "unicode": "ea64"
+    },
+    {
+        "name": "vesoft-checkbox-blank-off",
+        "className": "vesoft-checkbox-blank-off",
+        "unicode": "ea65"
+    },
+    {
+        "name": "vesoft-checkbox-blank-off-outline",
+        "className": "vesoft-checkbox-blank-off-outline",
+        "unicode": "ea66"
+    },
+    {
+        "name": "vesoft-node-path",
+        "className": "vesoft-node-path",
+        "unicode": "ea67"
+    },
+    {
+        "name": "vesoft-node-measurement",
+        "className": "vesoft-node-measurement",
+        "unicode": "ea68"
+    },
+    {
+        "name": "vesoft-graph-feature",
+        "className": "vesoft-graph-feature",
+        "unicode": "ea69"
+    },
+    {
+        "name": "vesoft-community-discovery",
+        "className": "vesoft-community-discovery",
+        "unicode": "ea6a"
+    },
+    {
+        "name": "vesoft-node-clustering",
+        "className": "vesoft-node-clustering",
+        "unicode": "ea6b"
+    },
+    {
+        "name": "vesoft-graph-query",
+        "className": "vesoft-graph-query",
+        "unicode": "ea6c"
+    },
+    {
+        "name": "vesoft-arrow-top-left-bold-outline",
+        "className": "vesoft-arrow-top-left-bold-outline",
+        "unicode": "ea6d"
+    },
+    {
+        "name": "vesoft-arrow-navigation",
+        "className": "vesoft-arrow-navigation",
+        "unicode": "ea6e"
+    },
+    {
+        "name": "vesoft-select-arrow-up",
+        "className": "vesoft-select-arrow-up",
+        "unicode": "ea6f"
+    },
+    {
+        "name": "vesoft-select-arrow-down",
+        "className": "vesoft-select-arrow-down",
+        "unicode": "ea70"
+    },
+    {
+        "name": "vesoft-select-arrow-right",
+        "className": "vesoft-select-arrow-right",
+        "unicode": "ea71"
+    },
+    {
+        "name": "vesoft-select-arrow-left",
+        "className": "vesoft-select-arrow-left",
+        "unicode": "ea72"
+    },
+    {
+        "name": "vesoft-magnify-plus",
+        "className": "vesoft-magnify-plus",
+        "unicode": "ea73"
+    },
+    {
+        "name": "vesoft-magnify-minus",
+        "className": "vesoft-magnify-minus",
+        "unicode": "ea74"
+    },
+    {
+        "name": "vesoft-magnify-plus-outline",
+        "className": "vesoft-magnify-plus-outline",
+        "unicode": "ea75"
+    },
+    {
+        "name": "vesoft-magnify-minus-outline",
+        "className": "vesoft-magnify-minus-outline",
+        "unicode": "ea76"
+    },
+    {
+        "name": "vesoft-chart-scatter-plot",
+        "className": "vesoft-chart-scatter-plot",
+        "unicode": "ea77"
+    },
+    {
+        "name": "vesoft-memory",
+        "className": "vesoft-memory",
+        "unicode": "ea78"
+    },
+    {
+        "name": "vesoft-chip",
+        "className": "vesoft-chip",
+        "unicode": "ea79"
+    },
+    {
+        "name": "vesoft-chart-areaspline",
+        "className": "vesoft-chart-areaspline",
+        "unicode": "ea7a"
+    },
+    {
+        "name": "vesoft-chart-areaspline-variant",
+        "className": "vesoft-chart-areaspline-variant",
+        "unicode": "ea7b"
+    },
+    {
+        "name": "vesoft-chart-box",
+        "className": "vesoft-chart-box",
+        "unicode": "ea7c"
+    },
+    {
+        "name": "vesoft-chart-box-outline",
+        "className": "vesoft-chart-box-outline",
+        "unicode": "ea7d"
+    },
+    {
+        "name": "vesoft-chart-bubble",
+        "className": "vesoft-chart-bubble",
+        "unicode": "ea7e"
+    },
+    {
+        "name": "vesoft-chart-line",
+        "className": "vesoft-chart-line",
+        "unicode": "ea7f"
+    },
+    {
+        "name": "vesoft-chart-pie",
+        "className": "vesoft-chart-pie",
+        "unicode": "ea80"
+    },
+    {
+        "name": "vesoft-chart-pie-outline",
+        "className": "vesoft-chart-pie-outline",
+        "unicode": "ea81"
+    },
+    {
+        "name": "vesoft-chart-bar",
+        "className": "vesoft-chart-bar",
+        "unicode": "ea82"
+    },
+    {
+        "name": "vesoft-file-tree",
+        "className": "vesoft-file-tree",
+        "unicode": "ea83"
+    },
+    {
+        "name": "vesoft-file-tree-outline",
+        "className": "vesoft-file-tree-outline",
+        "unicode": "ea84"
+    },
+    {
+        "name": "vesoft-vector-triangle",
+        "className": "vesoft-vector-triangle",
+        "unicode": "ea85"
+    },
+    {
+        "name": "vesoft-monitor-indicators",
+        "className": "vesoft-monitor-indicators",
+        "unicode": "ea86"
+    },
+    {
+        "name": "vesoft-monitor",
+        "className": "vesoft-monitor",
+        "unicode": "ea87"
+    },
+    {
+        "name": "vesoft-account-details",
+        "className": "vesoft-account-details",
+        "unicode": "ea88"
+    },
+    {
+        "name": "vesoft-account-details-outline",
+        "className": "vesoft-account-details-outline",
+        "unicode": "ea89"
+    },
+    {
+        "name": "vesoft-cogs",
+        "className": "vesoft-cogs",
+        "unicode": "ea8a"
+    },
+    {
+        "name": "vesoft-database-sync",
+        "className": "vesoft-database-sync",
+        "unicode": "ea8b"
+    },
+    {
+        "name": "vesoft-database-sync-outline",
+        "className": "vesoft-database-sync-outline",
+        "unicode": "ea8c"
+    },
+    {
+        "name": "vesoft-card-text",
+        "className": "vesoft-card-text",
+        "unicode": "ea8d"
+    },
+    {
+        "name": "vesoft-card-text-outline",
+        "className": "vesoft-card-text-outline",
+        "unicode": "ea8e"
+    },
+    {
+        "name": "vesoft-hexagon-multiple",
+        "className": "vesoft-hexagon-multiple",
+        "unicode": "ea8f"
+    },
+    {
+        "name": "vesoft-hexagon-multiple-outline",
+        "className": "vesoft-hexagon-multiple-outline",
+        "unicode": "ea90"
+    },
+    {
+        "name": "vesoft-tune-variant",
+        "className": "vesoft-tune-variant",
+        "unicode": "ea91"
+    },
+    {
+        "name": "vesoft-tune-vertical-variant",
+        "className": "vesoft-tune-vertical-variant",
+        "unicode": "ea92"
+    },
+    {
+        "name": "vesoft-person-management-filled",
+        "className": "vesoft-person-management-filled",
+        "unicode": "ea93"
+    },
+    {
+        "name": "vesoft-television",
+        "className": "vesoft-television",
+        "unicode": "ea94"
+    },
+    {
+        "name": "vesoft-youtube-tv",
+        "className": "vesoft-youtube-tv",
+        "unicode": "ea95"
+    },
+    {
+        "name": "vesoft-format-list-checks",
+        "className": "vesoft-format-list-checks",
+        "unicode": "ea96"
+    },
+    {
+        "name": "vesoft-package-up",
+        "className": "vesoft-package-up",
+        "unicode": "ea97"
+    },
+    {
+        "name": "vesoft-cluster-member-filled",
+        "className": "vesoft-cluster-member-filled",
+        "unicode": "ea98"
+    },
+    {
+        "name": "vesoft-database-member-filled",
+        "className": "vesoft-database-member-filled",
+        "unicode": "ea99"
+    },
+    {
+        "name": "vesoft-lock",
+        "className": "vesoft-lock",
+        "unicode": "ea9a"
+    },
+    {
+        "name": "vesoft-lock-outline",
+        "className": "vesoft-lock-outline",
+        "unicode": "ea9b"
+    },
+    {
+        "name": "vesoft-lock-open",
+        "className": "vesoft-lock-open",
+        "unicode": "ea9c"
+    },
+    {
+        "name": "vesoft-lock-open-outline",
+        "className": "vesoft-lock-open-outline",
+        "unicode": "ea9d"
+    },
+    {
+        "name": "vesoft-lock-open-variant",
+        "className": "vesoft-lock-open-variant",
+        "unicode": "ea9e"
+    },
+    {
+        "name": "vesoft-lock-open-variant-outline",
+        "className": "vesoft-lock-open-variant-outline",
+        "unicode": "ea9f"
+    },
+    {
+        "name": "vesoft-wrench",
+        "className": "vesoft-wrench",
+        "unicode": "eaa0"
+    },
+    {
+        "name": "vesoft-wrench-outline",
+        "className": "vesoft-wrench-outline",
+        "unicode": "eaa1"
+    },
+    {
+        "name": "vesoft-arrow-bottom-left",
+        "className": "vesoft-arrow-bottom-left",
+        "unicode": "eaa2"
+    },
+    {
+        "name": "vesoft-arrow-bottom-right",
+        "className": "vesoft-arrow-bottom-right",
+        "unicode": "eaa3"
+    },
+    {
+        "name": "vesoft-arrow-top-left",
+        "className": "vesoft-arrow-top-left",
+        "unicode": "eaa4"
+    },
+    {
+        "name": "vesoft-arrow-top-right",
+        "className": "vesoft-arrow-top-right",
+        "unicode": "eaa5"
+    },
+    {
+        "name": "vesoft-apps",
+        "className": "vesoft-apps",
+        "unicode": "eaa6"
+    },
+    {
+        "name": "vesoft-apps-box",
+        "className": "vesoft-apps-box",
+        "unicode": "eaa7"
+    },
+    {
+        "name": "vesoft-menu-left",
+        "className": "vesoft-menu-left",
+        "unicode": "eaa8"
+    },
+    {
+        "name": "vesoft-menu-up",
+        "className": "vesoft-menu-up",
+        "unicode": "eaa9"
+    },
+    {
+        "name": "vesoft-menu-right",
+        "className": "vesoft-menu-right",
+        "unicode": "eaaa"
+    },
+    {
+        "name": "vesoft-timer-sand",
+        "className": "vesoft-timer-sand",
+        "unicode": "eaab"
+    },
+    {
+        "name": "vesoft-timer-sand-complete",
+        "className": "vesoft-timer-sand-complete",
+        "unicode": "eaac"
+    },
+    {
+        "name": "vesoft-bell-off",
+        "className": "vesoft-bell-off",
+        "unicode": "eaad"
+    },
+    {
+        "name": "vesoft-bell-off-outline",
+        "className": "vesoft-bell-off-outline",
+        "unicode": "eaae"
+    },
+    {
+        "name": "vesoft-bell-cog",
+        "className": "vesoft-bell-cog",
+        "unicode": "eaaf"
+    },
+    {
+        "name": "vesoft-bell-cog-outline",
+        "className": "vesoft-bell-cog-outline",
+        "unicode": "eab0"
+    },
+    {
+        "name": "vesoft-bell-badge",
+        "className": "vesoft-bell-badge",
+        "unicode": "eab1"
+    },
+    {
+        "name": "vesoft-bell-badge-outline",
+        "className": "vesoft-bell-badge-outline",
+        "unicode": "eab2"
+    },
+    {
+        "name": "vesoft-account-edit",
+        "className": "vesoft-account-edit",
+        "unicode": "eab3"
+    },
+    {
+        "name": "vesoft-square-rounded-badge",
+        "className": "vesoft-square-rounded-badge",
+        "unicode": "eab4"
+    },
+    {
+        "name": "vesoft-square-rounded-badge-outline",
+        "className": "vesoft-square-rounded-badge-outline",
+        "unicode": "eab5"
     }
 ]
