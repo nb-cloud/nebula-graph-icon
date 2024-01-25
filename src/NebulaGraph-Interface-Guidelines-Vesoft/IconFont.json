@@ -2188,5 +2188,15 @@
         "name": "vesoft-square-rounded-badge-outline",
         "className": "vesoft-square-rounded-badge-outline",
         "unicode": "eab5"
+    },
+    {
+        "name": "vesoft-sitemap-inverse",
+        "className": "vesoft-sitemap-inverse",
+        "unicode": "eab6"
+    },
+    {
+        "name": "vesoft-sitemap-inverse-outline",
+        "className": "vesoft-sitemap-inverse-outline",
+        "unicode": "eab7"
     }
 ]

@@ -1,8 +1,8 @@
 @font-face {
     font-family: "IconFont";
-    src: url('IconFont.woff2?t=1705915084247') format('woff2'),
-        url('IconFont.woff?t=1705915084247') format('woff'),
-        url('IconFont.ttf?t=1705915084247') format('truetype');
+    src: url('IconFont.woff2?t=1706152680180') format('woff2'),
+        url('IconFont.woff?t=1706152680180') format('woff'),
+        url('IconFont.ttf?t=1706152680180') format('truetype');
 }
 
 .iconfont {
@@ -451,6 +451,8 @@
 .icon-vesoft-account-edit:before { content: "\eab3"; }
 .icon-vesoft-square-rounded-badge:before { content: "\eab4"; }
 .icon-vesoft-square-rounded-badge-outline:before { content: "\eab5"; }
+.icon-vesoft-sitemap-inverse:before { content: "\eab6"; }
+.icon-vesoft-sitemap-inverse-outline:before { content: "\eab7"; }
 
 
 /**
