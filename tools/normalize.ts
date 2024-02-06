@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { execSync } from 'node:child_process';
 import babel from '@babel/core';
 import generate from '@babel/generator';
 import t from '@babel/types';
@@ -76,7 +77,9 @@ const componentNames = srcFolderFiles
     const esCode = `import { createSvgIcon } from '@mui/material/utils';\nexport default createSvgIcon(${svgCode}, '${componentId}');`;
 
     !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
-    fs.writeFileSync(path.resolve(esDir, `${componentName}.js`), esCode, { encoding: 'utf-8' });
+    const esFilePath = path.resolve(esDir, `${componentName}.js`);
+    fs.writeFileSync(esFilePath, esCode, { encoding: 'utf-8' });
+    execSync(`npx babel ${esFilePath} --out-file ${esFilePath}`);
 
     successLog(`The file \`${componentName}.js\` has been created successfully`);
 

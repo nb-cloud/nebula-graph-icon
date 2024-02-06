@@ -1,6 +1,15 @@
 {
   "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": { "version": "3.35", "proposals": true },
+        "targets": "chrome >= 90, safari >= 15, firefox >= 90"
+      }
+    ],
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    "@babel/preset-typescript"
   ]
 }
