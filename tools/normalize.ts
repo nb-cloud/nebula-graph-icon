@@ -79,12 +79,13 @@ const componentNames = srcFolderFiles
     !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
     const esFilePath = path.resolve(esDir, `${componentName}.js`);
     fs.writeFileSync(esFilePath, esCode, { encoding: 'utf-8' });
-    execSync(`npx babel ${esFilePath} --out-file ${esFilePath}`);
 
     successLog(`The file \`${componentName}.js\` has been created successfully`);
 
     return componentName;
   });
+
+execSync(`npx babel es --out-dir es`, { encoding: 'utf-8', cwd: path.resolve(__dirname, '..') });
 
 const indexFileContent = componentNames.map((name) => `export { default as ${name} } from './${name}';`).join('\n');
 fs.writeFileSync(path.resolve(esDir, 'index.js'), indexFileContent, { encoding: 'utf-8' });
