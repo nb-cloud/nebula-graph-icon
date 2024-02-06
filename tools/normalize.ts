@@ -73,7 +73,7 @@ const componentNames = srcFolderFiles
     // accountCircleFilled => AccountCircleFilled
     const componentName = componentId.replace(/^vesoft/, '');
 
-    const esCode = `import { createSvgIcon } from '@mui/material/utils';\nexport default createSvgIcon('${svgCode}', '${componentId}');`;
+    const esCode = `import { createSvgIcon } from '@mui/material/utils';\nexport default createSvgIcon(${svgCode}, '${componentId}');`;
 
     !fs.existsSync(esDir) && fs.mkdirSync(esDir, { recursive: true });
     fs.writeFileSync(path.resolve(esDir, `${componentName}.js`), esCode, { encoding: 'utf-8' });
@@ -86,6 +86,15 @@ const componentNames = srcFolderFiles
 const indexFileContent = componentNames.map((name) => `export { default as ${name} } from './${name}';`).join('\n');
 fs.writeFileSync(path.resolve(esDir, 'index.js'), indexFileContent, { encoding: 'utf-8' });
 successLog(`The file \`index.js\` has been created successfully`);
+
+const typesFileContent = [
+  `import SvgIcon from '@mui/material/SvgIcon';`,
+  `type SvgIconComponent = typeof SvgIcon;`,
+  ...componentNames.map((name) => `export const ${name}: SvgIconComponent;`),
+].join('\n');
+
+fs.writeFileSync(path.resolve(esDir, 'index.d.ts'), typesFileContent, { encoding: 'utf-8' });
+successLog(`The file \`index.d.ts\` has been created successfully`);
 
 // const dstCode = dstCodeArr.join('\n');
 // const output = `<svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;">\n${dstCode}\n</svg>`;
