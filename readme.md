@@ -1,11 +1,11 @@
 # Usage
 ```bash
-npm install --save @vesoft-inc/icons
+# npm install --save @vesoft-inc/icons
+pnpm install @vesoft-inc/icons
 ```
 
 ```tsx
-// import { AbTesting } from '@vesoft-inc/icons';
-import AbTesting from '@vesoft-inc/icons/AbTesting';
+import { AbTesting } from '@vesoft-inc/icons';
 
 const App = () => {
   return (
