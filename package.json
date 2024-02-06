@@ -1,21 +1,19 @@
 {
   "name": "@vesoft-inc/icons",
-  "version": "1.9.0",
+  "version": "2.0.0-beta.1",
   "description": "Icons",
   "type": "module",
-  "main": "lib/",
-  "module": "es/",
+  "main": "./es/index.js",
+  "module": "./es/index.js",
+  "files": [
+    "es/",
+    "LICENSE",
+    "readme.md"
+  ],
   "scripts": {
-    "build": "node ./tools/normalize.js",
-    "build:Cloud": "node ./tools/normalize.js NebulaGraph-Cloud",
-    "build:Dashboard": "node ./tools/normalize.js NebulaGraph-Dashboard",
-    "build:Explorer": "node ./tools/normalize.js NebulaGraph-Explorer",
-    "build:Guidelines": "node ./tools/normalize.js NebulaGraph-Interface-Guidelines",
-    "build:Guidelines-Vesoft": "node ./tools/normalize.js NebulaGraph-Interface-Guidelines-Vesoft",
-    "build:Studio": "node ./tools/normalize.js NebulaGraph-Studio",
-    "build:Website": "node ./tools/normalize.js NebulaGraph-Website",
-    "clean": "rimraf ./dist/* ./es/*",
-    "prepublish": "npm run clean && npm run build"
+    "build": "tsx ./tools/normalize.ts",
+    "clean": "rimraf ./lib/* ./es/*",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "author": {
     "name": "bruce.lu",
@@ -29,10 +27,19 @@
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
     "@babel/types": "^7.23.3",
-    "rimraf": "^5.0.5"
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.6.8",
+    "@types/node": "^20.11.16",
+    "chalk": "^5.3.0",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@mui/material": "^5.15.6"
   }
 }

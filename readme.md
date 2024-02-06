@@ -3,17 +3,17 @@
 npm install --save @vesoft-inc/icons
 ```
 
-Each `svg-tpl.cjs` file nestled within the lib subdirectories proffers an exportation of the `SVG Icon Element` string.
+```tsx
+// import { AbTesting } from '@vesoft-inc/icons';
+import AbTesting from '@vesoft-inc/icons/AbTesting';
 
-```js
-import SVGElement from '@vesoft-inc/icons/lib/NebulaGraph-Explorer/svg-tpl.cjs';
-
-// inject `SVGElement` string into your html
-```
-
-```js
-// inject `SVGElement` into your html automatically
-import '@vesoft-inc/icons/lib/NebulaGraph-Explorer/icon.cjs';
+const App = () => {
+  return (
+    <div>
+      <AbTesting />
+    </div>
+  );
+};
 ```
 
 # Build
@@ -22,34 +22,7 @@ npm install
 npm run build
 ```
 
-After the build process, the `lib` and `es` directories will be generated, and the directory structure will be as follows:
-
-```
-es
-├── NebulaGraph-Cloud
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-├── NebulaGraph-Dashboard
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-├── NebulaGraph-Explorer
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-├── NebulaGraph-Interface-Guidelines
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-├── NebulaGraph-Interface-Guidelines-Vesoft
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-├── NebulaGraph-Studio
-│  ├── icon.mjs
-│  └── svg-tpl.mjs
-└── NebulaGraph-Website
-    ├── icon.mjs
-    └── svg-tpl.mjs
-```
-
-`lib` directory is the same as `es` directory, except that the file suffix is `cjs`.
+After the build process, the `es` directories will be generated.
 
 # Publish
 ```bash
