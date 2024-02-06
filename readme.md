@@ -5,6 +5,8 @@ pnpm install @vesoft-inc/icons
 ```
 
 ```tsx
+// vesoft-ab-testing --> <AbTesting />
+// vesoft-expand-less-filled --> <ExpandLessFilled />
 import { AbTesting } from '@vesoft-inc/icons';
 
 const App = () => {
