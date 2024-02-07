@@ -1,4 +1,6 @@
 # Usage
+Public Icon library for vesoft visualization apps. [Preview](https://nb-cloud.github.io/nebula-graph-icon/src/NebulaGraph-Interface-Guidelines-Vesoft/demo.html)
+
 ```bash
 # npm install --save @vesoft-inc/icons
 pnpm install @vesoft-inc/icons
