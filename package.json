@@ -1,6 +1,6 @@
 {
   "name": "@vesoft-inc/icons",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.0",
   "description": "Vesoft Icons",
   "type": "module",
   "main": "./es/index.js",
