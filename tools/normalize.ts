@@ -44,6 +44,10 @@ const componentNames = srcFolderFiles
         if (name === 'path' && attributes) {
           node.attributes = attributes.filter((attr) => {
             const { name } = (attr as t.JSXAttribute).name;
+            // fill-rule || clip-rule
+            if (name === 'fill-rule' || name === 'clip-rule') {
+              attr.name = t.jsxIdentifier(name.replace(/-([a-z])/g, (_, p1) => p1.toUpperCase()));
+            }
             // remove `fill` attribute, because we use `currentColor` to replace it
             return name !== 'fill';
           });
