@@ -2198,5 +2198,10 @@
         "name": "vesoft-sitemap-inverse-outline",
         "className": "vesoft-sitemap-inverse-outline",
         "unicode": "eab7"
+    },
+    {
+        "name": "vesoft-power",
+        "className": "vesoft-power",
+        "unicode": "eab8"
     }
 ]
