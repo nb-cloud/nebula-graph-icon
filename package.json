@@ -1,6 +1,6 @@
 {
   "name": "@vesoft-inc/icons",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Vesoft Icons",
   "type": "module",
   "main": "./es/index.js",
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.9",
-    "@mui/material": "^5.15.6"
+    "@mui/material": "^7.1.1"
   },
   "peerDependencies": {
     "react": ">=18",
